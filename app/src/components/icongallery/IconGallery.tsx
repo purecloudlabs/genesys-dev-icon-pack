@@ -15,8 +15,8 @@ export default function IconGallery() {
 		iconNames: Object.keys(GenesysDevIcons).filter((key) => key.startsWith('Dest')) as GenesysDevIconsKey[],
 	});
 	iconSets.push({
-		name: 'Taxonomy Icons',
-		iconNames: Object.keys(GenesysDevIcons).filter((key) => key.startsWith('Tax')) as GenesysDevIconsKey[],
+		name: 'Information Architecture Icons',
+		iconNames: Object.keys(GenesysDevIcons).filter((key) => key.startsWith('Ia')) as GenesysDevIconsKey[],
 	});
 
 	return (

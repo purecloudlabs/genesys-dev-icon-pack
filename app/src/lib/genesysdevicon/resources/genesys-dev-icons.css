@@ -1,8 +1,8 @@
 @font-face {
     font-family: "genesys-dev-icons";
-    src: url("./genesys-dev-icons.eot?7a77df449b4cc547940b88c75ab8a6bd#iefix") format("embedded-opentype"),
-url("./genesys-dev-icons.woff2?7a77df449b4cc547940b88c75ab8a6bd") format("woff2"),
-url("./genesys-dev-icons.woff?7a77df449b4cc547940b88c75ab8a6bd") format("woff");
+    src: url("./genesys-dev-icons.eot?19abd4f2bac19f7702268a8fdb193762#iefix") format("embedded-opentype"),
+url("./genesys-dev-icons.woff2?19abd4f2bac19f7702268a8fdb193762") format("woff2"),
+url("./genesys-dev-icons.woff?19abd4f2bac19f7702268a8fdb193762") format("woff");
 }
 
 i[class^="icon-"]:before, i[class*=" icon-"]:before {
@@ -28,108 +28,114 @@ i[class^="icon-"]:before, i[class*=" icon-"]:before {
 .icon-app-copy:before {
     content: "\f104";
 }
-.icon-app-ellipsis:before {
+.icon-app-ellipsis-vertical:before {
     content: "\f105";
 }
-.icon-app-link:before {
+.icon-app-ellipsis:before {
     content: "\f106";
 }
-.icon-app-pin-solid:before {
+.icon-app-link:before {
     content: "\f107";
 }
-.icon-app-pin-stroke:before {
+.icon-app-pin-solid:before {
     content: "\f108";
 }
-.icon-app-plus-solid:before {
+.icon-app-pin-stroke:before {
     content: "\f109";
 }
-.icon-app-plus-stroke:before {
+.icon-app-plus-solid:before {
     content: "\f10a";
 }
-.icon-app-plus:before {
+.icon-app-plus-stroke:before {
     content: "\f10b";
 }
-.icon-app-times-solid:before {
+.icon-app-plus:before {
     content: "\f10c";
 }
-.icon-app-times-stroke:before {
+.icon-app-times-solid:before {
     content: "\f10d";
 }
-.icon-dest-accounts:before {
+.icon-app-times-stroke:before {
     content: "\f10e";
 }
-.icon-dest-api-explorer:before {
+.icon-app-times:before {
     content: "\f10f";
 }
-.icon-dest-api:before {
+.icon-dest-accounts:before {
     content: "\f110";
 }
-.icon-dest-app-foundry:before {
+.icon-dest-api-explorer:before {
     content: "\f111";
 }
-.icon-dest-blog:before {
+.icon-dest-api:before {
     content: "\f112";
 }
-.icon-dest-blueprint:before {
+.icon-dest-app-foundry:before {
     content: "\f113";
 }
-.icon-dest-cog:before {
+.icon-dest-blog:before {
     content: "\f114";
 }
-.icon-dest-forum:before {
+.icon-dest-blueprint:before {
     content: "\f115";
 }
-.icon-dest-get-started:before {
+.icon-dest-cog:before {
     content: "\f116";
 }
-.icon-dest-guide:before {
+.icon-dest-forum:before {
     content: "\f117";
 }
-.icon-dest-notifications:before {
+.icon-dest-get-started:before {
     content: "\f118";
 }
-.icon-dest-pages:before {
+.icon-dest-guide:before {
     content: "\f119";
 }
-.icon-dest-tool:before {
+.icon-dest-notifications:before {
     content: "\f11a";
 }
-.icon-dest-tutorial:before {
+.icon-dest-pages:before {
     content: "\f11b";
 }
-.icon-dest-video:before {
+.icon-dest-tool:before {
     content: "\f11c";
 }
-.icon-tax-analytics-data-management:before {
+.icon-dest-tutorial:before {
     content: "\f11d";
 }
-.icon-tax-authorization:before {
+.icon-dest-video:before {
     content: "\f11e";
 }
-.icon-tax-billing:before {
+.icon-ia-analytics-data-management:before {
     content: "\f11f";
 }
-.icon-tax-digital:before {
+.icon-ia-authorization:before {
     content: "\f120";
 }
-.icon-tax-gdpr-privacy:before {
+.icon-ia-billing:before {
     content: "\f121";
 }
-.icon-tax-notifications-alerts:before {
+.icon-ia-digital:before {
     content: "\f122";
 }
-.icon-tax-organization:before {
+.icon-ia-gdpr-privacy:before {
     content: "\f123";
 }
-.icon-tax-platform:before {
+.icon-ia-notifications-alerts:before {
     content: "\f124";
 }
-.icon-tax-routing:before {
+.icon-ia-organization:before {
     content: "\f125";
 }
-.icon-tax-telephony:before {
+.icon-ia-platform:before {
     content: "\f126";
 }
-.icon-tax-user-agent-management:before {
+.icon-ia-routing:before {
     content: "\f127";
+}
+.icon-ia-telephony:before {
+    content: "\f128";
+}
+.icon-ia-user-agent-management:before {
+    content: "\f129";
 }
