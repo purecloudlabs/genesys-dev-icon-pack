@@ -2,23 +2,27 @@
 
 This project amalgamates public-facing Genesys brand icons, Genesys product icons, and general application iconography into a packaged icon library.
 
-Documentation: https://purecloudlabs.github.io/genesys-dev-icon-pack/
-
 ## Usage
 
-TODO
+See `package/README.md` and https://purecloudlabs.github.io/genesys-dev-icon-pack/.
 
 ## Building Locally
 
-### Generate Icon Pack
+### Generate Icon Pack and Component Package
 
-The first step is to generate the icon pack from the source SVG images found in the `icons` folder. This process uses [fantasticon](https://github.com/tancredi/fantasticon) to transform the SVG files into a font. Do this by running:
+Running the build script first generates the icon pack from the source SVG images found in the `icons` folder. This process uses [fantasticon](https://github.com/tancredi/fantasticon) to transform the SVG files into a font. Next, the new resources are copied into the packaged component's resources and the package is rebuilt.
+
+Run the build script:
 
 ```sh
 ./build.sh
 ```
 
-The resulting icon pack files will be located in the `dist` folder.
+The resulting icon pack files will be located in the `dist` folder. The resulting package source that gets published to npm will be located in the `package/lib` folder.
+
+### Deploy Component Package to NPM
+
+After building, increment the version number if `package/package.json` and `cd package && npm publish` to publish the package to NPM. The commit that gets published should be tagged as `vX.Y.Z`.
 
 ### Run Local Demo
 
