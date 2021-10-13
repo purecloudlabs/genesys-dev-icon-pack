@@ -1,0 +1,91 @@
+"use strict";
+var _a;
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.GENESYS_DEV_ICONS_CODEPOINTS = exports.GenesysDevIcons = void 0;
+var GenesysDevIcons;
+(function (GenesysDevIcons) {
+    GenesysDevIcons["AppCheckSolid"] = "app-check-solid";
+    GenesysDevIcons["AppCheckStroke"] = "app-check-stroke";
+    GenesysDevIcons["AppCheck"] = "app-check";
+    GenesysDevIcons["AppCopy"] = "app-copy";
+    GenesysDevIcons["AppEllipsisVertical"] = "app-ellipsis-vertical";
+    GenesysDevIcons["AppEllipsis"] = "app-ellipsis";
+    GenesysDevIcons["AppLink"] = "app-link";
+    GenesysDevIcons["AppPinSolid"] = "app-pin-solid";
+    GenesysDevIcons["AppPinStroke"] = "app-pin-stroke";
+    GenesysDevIcons["AppPlusSolid"] = "app-plus-solid";
+    GenesysDevIcons["AppPlusStroke"] = "app-plus-stroke";
+    GenesysDevIcons["AppPlus"] = "app-plus";
+    GenesysDevIcons["AppTimesSolid"] = "app-times-solid";
+    GenesysDevIcons["AppTimesStroke"] = "app-times-stroke";
+    GenesysDevIcons["AppTimes"] = "app-times";
+    GenesysDevIcons["DestAccounts"] = "dest-accounts";
+    GenesysDevIcons["DestApiExplorer"] = "dest-api-explorer";
+    GenesysDevIcons["DestApi"] = "dest-api";
+    GenesysDevIcons["DestAppFoundry"] = "dest-app-foundry";
+    GenesysDevIcons["DestBlog"] = "dest-blog";
+    GenesysDevIcons["DestBlueprint"] = "dest-blueprint";
+    GenesysDevIcons["DestCog"] = "dest-cog";
+    GenesysDevIcons["DestForum"] = "dest-forum";
+    GenesysDevIcons["DestGetStarted"] = "dest-get-started";
+    GenesysDevIcons["DestGuide"] = "dest-guide";
+    GenesysDevIcons["DestNotifications"] = "dest-notifications";
+    GenesysDevIcons["DestPages"] = "dest-pages";
+    GenesysDevIcons["DestTool"] = "dest-tool";
+    GenesysDevIcons["DestTutorial"] = "dest-tutorial";
+    GenesysDevIcons["DestVideo"] = "dest-video";
+    GenesysDevIcons["IaAnalyticsDataManagement"] = "ia-analytics-data-management";
+    GenesysDevIcons["IaAuthorization"] = "ia-authorization";
+    GenesysDevIcons["IaBilling"] = "ia-billing";
+    GenesysDevIcons["IaDigital"] = "ia-digital";
+    GenesysDevIcons["IaGdprPrivacy"] = "ia-gdpr-privacy";
+    GenesysDevIcons["IaNotificationsAlerts"] = "ia-notifications-alerts";
+    GenesysDevIcons["IaOrganization"] = "ia-organization";
+    GenesysDevIcons["IaPlatform"] = "ia-platform";
+    GenesysDevIcons["IaRouting"] = "ia-routing";
+    GenesysDevIcons["IaTelephony"] = "ia-telephony";
+    GenesysDevIcons["IaUserAgentManagement"] = "ia-user-agent-management";
+})(GenesysDevIcons = exports.GenesysDevIcons || (exports.GenesysDevIcons = {}));
+exports.GENESYS_DEV_ICONS_CODEPOINTS = (_a = {},
+    _a[GenesysDevIcons.AppCheckSolid] = "61697",
+    _a[GenesysDevIcons.AppCheckStroke] = "61698",
+    _a[GenesysDevIcons.AppCheck] = "61699",
+    _a[GenesysDevIcons.AppCopy] = "61700",
+    _a[GenesysDevIcons.AppEllipsisVertical] = "61701",
+    _a[GenesysDevIcons.AppEllipsis] = "61702",
+    _a[GenesysDevIcons.AppLink] = "61703",
+    _a[GenesysDevIcons.AppPinSolid] = "61704",
+    _a[GenesysDevIcons.AppPinStroke] = "61705",
+    _a[GenesysDevIcons.AppPlusSolid] = "61706",
+    _a[GenesysDevIcons.AppPlusStroke] = "61707",
+    _a[GenesysDevIcons.AppPlus] = "61708",
+    _a[GenesysDevIcons.AppTimesSolid] = "61709",
+    _a[GenesysDevIcons.AppTimesStroke] = "61710",
+    _a[GenesysDevIcons.AppTimes] = "61711",
+    _a[GenesysDevIcons.DestAccounts] = "61712",
+    _a[GenesysDevIcons.DestApiExplorer] = "61713",
+    _a[GenesysDevIcons.DestApi] = "61714",
+    _a[GenesysDevIcons.DestAppFoundry] = "61715",
+    _a[GenesysDevIcons.DestBlog] = "61716",
+    _a[GenesysDevIcons.DestBlueprint] = "61717",
+    _a[GenesysDevIcons.DestCog] = "61718",
+    _a[GenesysDevIcons.DestForum] = "61719",
+    _a[GenesysDevIcons.DestGetStarted] = "61720",
+    _a[GenesysDevIcons.DestGuide] = "61721",
+    _a[GenesysDevIcons.DestNotifications] = "61722",
+    _a[GenesysDevIcons.DestPages] = "61723",
+    _a[GenesysDevIcons.DestTool] = "61724",
+    _a[GenesysDevIcons.DestTutorial] = "61725",
+    _a[GenesysDevIcons.DestVideo] = "61726",
+    _a[GenesysDevIcons.IaAnalyticsDataManagement] = "61727",
+    _a[GenesysDevIcons.IaAuthorization] = "61728",
+    _a[GenesysDevIcons.IaBilling] = "61729",
+    _a[GenesysDevIcons.IaDigital] = "61730",
+    _a[GenesysDevIcons.IaGdprPrivacy] = "61731",
+    _a[GenesysDevIcons.IaNotificationsAlerts] = "61732",
+    _a[GenesysDevIcons.IaOrganization] = "61733",
+    _a[GenesysDevIcons.IaPlatform] = "61734",
+    _a[GenesysDevIcons.IaRouting] = "61735",
+    _a[GenesysDevIcons.IaTelephony] = "61736",
+    _a[GenesysDevIcons.IaUserAgentManagement] = "61737",
+    _a);

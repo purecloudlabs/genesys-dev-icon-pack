@@ -1,0 +1,48 @@
+export declare type GenesysDevIconsId = "app-check-solid" | "app-check-stroke" | "app-check" | "app-copy" | "app-ellipsis-vertical" | "app-ellipsis" | "app-link" | "app-pin-solid" | "app-pin-stroke" | "app-plus-solid" | "app-plus-stroke" | "app-plus" | "app-times-solid" | "app-times-stroke" | "app-times" | "dest-accounts" | "dest-api-explorer" | "dest-api" | "dest-app-foundry" | "dest-blog" | "dest-blueprint" | "dest-cog" | "dest-forum" | "dest-get-started" | "dest-guide" | "dest-notifications" | "dest-pages" | "dest-tool" | "dest-tutorial" | "dest-video" | "ia-analytics-data-management" | "ia-authorization" | "ia-billing" | "ia-digital" | "ia-gdpr-privacy" | "ia-notifications-alerts" | "ia-organization" | "ia-platform" | "ia-routing" | "ia-telephony" | "ia-user-agent-management";
+export declare type GenesysDevIconsKey = "AppCheckSolid" | "AppCheckStroke" | "AppCheck" | "AppCopy" | "AppEllipsisVertical" | "AppEllipsis" | "AppLink" | "AppPinSolid" | "AppPinStroke" | "AppPlusSolid" | "AppPlusStroke" | "AppPlus" | "AppTimesSolid" | "AppTimesStroke" | "AppTimes" | "DestAccounts" | "DestApiExplorer" | "DestApi" | "DestAppFoundry" | "DestBlog" | "DestBlueprint" | "DestCog" | "DestForum" | "DestGetStarted" | "DestGuide" | "DestNotifications" | "DestPages" | "DestTool" | "DestTutorial" | "DestVideo" | "IaAnalyticsDataManagement" | "IaAuthorization" | "IaBilling" | "IaDigital" | "IaGdprPrivacy" | "IaNotificationsAlerts" | "IaOrganization" | "IaPlatform" | "IaRouting" | "IaTelephony" | "IaUserAgentManagement";
+export declare enum GenesysDevIcons {
+    AppCheckSolid = "app-check-solid",
+    AppCheckStroke = "app-check-stroke",
+    AppCheck = "app-check",
+    AppCopy = "app-copy",
+    AppEllipsisVertical = "app-ellipsis-vertical",
+    AppEllipsis = "app-ellipsis",
+    AppLink = "app-link",
+    AppPinSolid = "app-pin-solid",
+    AppPinStroke = "app-pin-stroke",
+    AppPlusSolid = "app-plus-solid",
+    AppPlusStroke = "app-plus-stroke",
+    AppPlus = "app-plus",
+    AppTimesSolid = "app-times-solid",
+    AppTimesStroke = "app-times-stroke",
+    AppTimes = "app-times",
+    DestAccounts = "dest-accounts",
+    DestApiExplorer = "dest-api-explorer",
+    DestApi = "dest-api",
+    DestAppFoundry = "dest-app-foundry",
+    DestBlog = "dest-blog",
+    DestBlueprint = "dest-blueprint",
+    DestCog = "dest-cog",
+    DestForum = "dest-forum",
+    DestGetStarted = "dest-get-started",
+    DestGuide = "dest-guide",
+    DestNotifications = "dest-notifications",
+    DestPages = "dest-pages",
+    DestTool = "dest-tool",
+    DestTutorial = "dest-tutorial",
+    DestVideo = "dest-video",
+    IaAnalyticsDataManagement = "ia-analytics-data-management",
+    IaAuthorization = "ia-authorization",
+    IaBilling = "ia-billing",
+    IaDigital = "ia-digital",
+    IaGdprPrivacy = "ia-gdpr-privacy",
+    IaNotificationsAlerts = "ia-notifications-alerts",
+    IaOrganization = "ia-organization",
+    IaPlatform = "ia-platform",
+    IaRouting = "ia-routing",
+    IaTelephony = "ia-telephony",
+    IaUserAgentManagement = "ia-user-agent-management"
+}
+export declare const GENESYS_DEV_ICONS_CODEPOINTS: {
+    [key in GenesysDevIcons]: string;
+};

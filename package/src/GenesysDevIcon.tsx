@@ -1,4 +1,4 @@
-import React from 'react';
+import * as React from 'react';
 import { GenesysDevIcons } from './resources/genesys-dev-icons';
 
 import './resources/genesys-dev-icons.css';

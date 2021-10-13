@@ -1,13 +1,12 @@
 import React from 'react';
-import GenesysDevIcon from '../../lib/genesysdevicon/GenesysDevIcon';
-import { GenesysDevIcons, GenesysDevIconsKey } from '../../lib/genesysdevicon/resources/genesys-dev-icons';
+import { GenesysDevIcon, GenesysDevIcons, GenesysDevIconsKey } from 'genesys-dev-icons';
+
 import './IconGallery.scss';
 
 export default function IconGallery() {
 	const iconSets = [];
 	iconSets.push({
 		name: 'Application Icons',
-		// iconNames: Object.values(GenesysDevIcons).filter((key) => key.startsWith('app')) as GenesysDevIcons[],
 		iconNames: Object.keys(GenesysDevIcons).filter((key) => key.startsWith('App')) as GenesysDevIconsKey[],
 	});
 	iconSets.push({
@@ -39,7 +38,7 @@ export default function IconGallery() {
 								<button
 									type="button"
 									className="button button-primary"
-									onClick={() => navigator.clipboard.writeText(`<i class="icon ${GenesysDevIcons[iconName]}" />`)}
+									onClick={() => navigator.clipboard.writeText(`<i class="icon ${GenesysDevIcons[iconName]}"></i>`)}
 								>
 									<GenesysDevIcon icon={GenesysDevIcons.AppCopy} /> Copy HTML
 								</button>
