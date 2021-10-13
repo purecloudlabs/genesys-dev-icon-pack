@@ -1,44 +1,23 @@
 import React from 'react';
-import GenesysDevIcon from '../../lib/genesysdevicon/GenesysDevIcon';
+import { GenesysDevIcon, GenesysDevIcons, GenesysDevIconsKey } from 'genesys-dev-icons';
+
 import './IconGallery.scss';
 
-const iconSets = [
-	{
-		name: 'Application Icons',
-		iconNames: [
-			'app-check-solid',
-			'app-check-stroke',
-			'app-check',
-			'app-copy',
-			'app-ellipsis',
-			'app-link',
-			'app-pin-solid',
-			'app-pin-stroke',
-			'app-plus-solid',
-			'app-plus-stroke',
-			'app-plus',
-			'app-times-solid',
-			'app-times-stroke',
-		],
-	},
-	{
-		name: 'Destination Icons',
-		iconNames: [
-			'dest-api',
-			'dest-app-foundry',
-			'dest-blog',
-			'dest-blueprint',
-			'dest-forum',
-			'dest-guide',
-			'dest-rocket',
-			'dest-tool',
-			'dest-tutorial',
-			'dest-video',
-		],
-	},
-];
-
 export default function IconGallery() {
+	const iconSets = [];
+	iconSets.push({
+		name: 'Application Icons',
+		iconNames: Object.keys(GenesysDevIcons).filter((key) => key.startsWith('App')) as GenesysDevIconsKey[],
+	});
+	iconSets.push({
+		name: 'Destination Icons',
+		iconNames: Object.keys(GenesysDevIcons).filter((key) => key.startsWith('Dest')) as GenesysDevIconsKey[],
+	});
+	iconSets.push({
+		name: 'Information Architecture Icons',
+		iconNames: Object.keys(GenesysDevIcons).filter((key) => key.startsWith('Ia')) as GenesysDevIconsKey[],
+	});
+
 	return (
 		<div className="icon-gallery">
 			{iconSets.map((iconSet) => (
@@ -47,21 +26,21 @@ export default function IconGallery() {
 					<div className="icon-set">
 						{iconSet.iconNames.map((iconName) => (
 							<div key={iconName} className="icon-container">
-								<GenesysDevIcon icon={iconName} />
-								<span>{iconName}</span>
+								<GenesysDevIcon icon={GenesysDevIcons[iconName]} />
+								<span>{GenesysDevIcons[iconName]}</span>
 								<button
 									type="button"
 									className="button button-primary"
-									onClick={() => navigator.clipboard.writeText(`<GenesysDevIcon icon="${iconName}" />`)}
+									onClick={() => navigator.clipboard.writeText(`<GenesysDevIcon icon={GenesysDevIcons.${iconName}} />`)}
 								>
-									<GenesysDevIcon icon="app-copy" /> Copy React
+									<GenesysDevIcon icon={GenesysDevIcons.AppCopy} /> Copy React
 								</button>
 								<button
 									type="button"
 									className="button button-primary"
-									onClick={() => navigator.clipboard.writeText(`<i class="icon ${iconName}" />`)}
+									onClick={() => navigator.clipboard.writeText(`<i class="icon ${GenesysDevIcons[iconName]}"></i>`)}
 								>
-									<GenesysDevIcon icon="app-copy" /> Copy HTML
+									<GenesysDevIcon icon={GenesysDevIcons.AppCopy} /> Copy HTML
 								</button>
 							</div>
 						))}

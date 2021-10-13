@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?> <!-- Created with Vectornator for iOS (http://vectornator.io/) --><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg height="100%" style="fill-rule:nonzero;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="100%" xmlns:vectornator="http://vectornator.io" version="1.1" viewBox="0 0 36 36">
+<metadata>
+<vectornator:setting key="DimensionsVisible" value="1"/>
+<vectornator:setting key="PencilOnly" value="0"/>
+<vectornator:setting key="SnapToPoints" value="0"/>
+<vectornator:setting key="OutlineMode" value="0"/>
+<vectornator:setting key="CMYKEnabledKey" value="0"/>
+<vectornator:setting key="RulersVisible" value="1"/>
+<vectornator:setting key="SnapToEdges" value="0"/>
+<vectornator:setting key="GuidesVisible" value="1"/>
+<vectornator:setting key="DisplayWhiteBackground" value="0"/>
+<vectornator:setting key="doHistoryDisabled" value="0"/>
+<vectornator:setting key="SnapToGuides" value="1"/>
+<vectornator:setting key="TimeLapseWatermarkDisabled" value="0"/>
+<vectornator:setting key="Units" value="Points"/>
+<vectornator:setting key="DynamicGuides" value="0"/>
+<vectornator:setting key="IsolateActiveLayer" value="0"/>
+<vectornator:setting key="SnapToGrid" value="0"/>
+</metadata>
+<defs/>
+<g id="Untitled" vectornator:layerName="Untitled">
+<g opacity="1">
+<path d="M24.3+20.9997L23.25+19.9497L27.15+16.0497L23.175+11.9997L24.225+10.9497L29.325+16.0497L24.3+20.9997Z" opacity="1" fill="#ff4f1f"/>
+<path d="M12.675+20.9997L7.65003+15.8997L12.6+10.9497L13.65+11.9997L9.75003+15.8997L13.8+19.9497L12.675+20.9997Z" opacity="1" fill="#ff4f1f"/>
+<path d="M20.13+10.971L15.5627+20.1753L16.9063+20.8421L21.4737+11.6377L20.13+10.971Z" opacity="1" fill="#ff4f1f"/>
+<path d="M4.5+26.1L3+26.1L3+7.575C3+6.75+3.3+6+3.9+5.4C4.5+4.8+5.25+4.5+6.075+4.5L29.925+4.5C31.65+4.5+33+5.85+33+7.575L33+22.8L31.5+22.8L31.5+7.575C31.5+6.675+30.825+6+29.925+6L6.075+6C5.625+6+5.25+6.15+4.95+6.45C4.65+6.75+4.5+7.125+4.5+7.575L4.5+26.1Z" opacity="1" fill="#ff4f1f"/>
+<path d="M33+31.5L3+31.5C1.35+31.5+0+30.15+0+28.5C0+26.85+1.35+25.5+3+25.5L33+25.5C34.65+25.5+36+26.85+36+28.5C36+30.15+34.65+31.5+33+31.5ZM3+27C2.175+27+1.5+27.675+1.5+28.5C1.5+29.325+2.175+30+3+30L33+30C33.825+30+34.5+29.325+34.5+28.5C34.5+27.675+33.825+27+33+27L3+27Z" opacity="1" fill="#ff4f1f"/>
+</g>
+</g>
+</svg>

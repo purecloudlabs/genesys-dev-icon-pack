@@ -1,3 +1,25 @@
-<svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path fill-rule="evenodd" clip-rule="evenodd" d="M13.6754 20.1C13.6754 20.5971 13.2724 21 12.7754 21V21C12.2783 21 11.8754 20.5971 11.8754 20.1V12.9H4.67539C4.17833 12.9 3.77539 12.4971 3.77539 12V12C3.77539 11.5029 4.17833 11.1 4.67539 11.1H11.8754V3.9C11.8754 3.40294 12.2783 3 12.7754 3V3C13.2724 3 13.6754 3.40294 13.6754 3.9V11.1H20.8754C21.3724 11.1 21.7754 11.5029 21.7754 12V12C21.7754 12.4971 21.3724 12.9 20.8754 12.9H13.6754V20.1Z" fill="#2F7BB1"/>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?> <!-- Created with Vectornator for iOS (http://vectornator.io/) --><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg height="100%" style="fill-rule:nonzero;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="100%" xmlns:vectornator="http://vectornator.io" version="1.1" viewBox="0 0 36 36">
+<metadata>
+<vectornator:setting key="DimensionsVisible" value="1"/>
+<vectornator:setting key="PencilOnly" value="0"/>
+<vectornator:setting key="SnapToPoints" value="0"/>
+<vectornator:setting key="OutlineMode" value="0"/>
+<vectornator:setting key="CMYKEnabledKey" value="0"/>
+<vectornator:setting key="RulersVisible" value="1"/>
+<vectornator:setting key="SnapToEdges" value="0"/>
+<vectornator:setting key="GuidesVisible" value="1"/>
+<vectornator:setting key="DisplayWhiteBackground" value="0"/>
+<vectornator:setting key="doHistoryDisabled" value="0"/>
+<vectornator:setting key="SnapToGuides" value="1"/>
+<vectornator:setting key="TimeLapseWatermarkDisabled" value="0"/>
+<vectornator:setting key="Units" value="Points"/>
+<vectornator:setting key="DynamicGuides" value="0"/>
+<vectornator:setting key="IsolateActiveLayer" value="0"/>
+<vectornator:setting key="SnapToGrid" value="0"/>
+</metadata>
+<defs/>
+<g id="Untitled" vectornator:layerName="Untitled">
+<path d="M19.8+34.2C19.8+35.1942+18.994+36+18+36L18+36C17.0058+36+16.2+35.1942+16.2+34.2L16.2+19.8L1.8+19.8C0.805881+19.8+1.1921e-06+18.9942+1.1921e-06+18L1.1921e-06+18C1.1921e-06+17.0058+0.805881+16.2+1.8+16.2L16.2+16.2L16.2+1.80001C16.2+0.80589+17.0058+1.07288e-05+18+1.07288e-05L18+1.07288e-05C18.994+1.07288e-05+19.8+0.80589+19.8+1.80001L19.8+16.2L34.2+16.2C35.194+16.2+36+17.0058+36+18L36+18C36+18.9942+35.194+19.8+34.2+19.8L19.8+19.8L19.8+34.2Z" fill-rule="evenodd" fill="#2f7bb1" opacity="1"/>
+</g>
 </svg>
