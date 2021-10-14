@@ -6,4 +6,25 @@
 		max-width: 1200px;
 		margin: 0 auto;
 	}
+
+	.icon-version {
+		margin-top: 180px;
+		display: flex;
+		flex-flow: column nowrap;
+		gap: 10px;
+
+		.sources {
+			font-size: 36px;
+
+			.icon {
+				display: inline-block;
+				margin: 10px;
+				color: #ff4f1f;
+
+				&:hover {
+					color: darken(#ff4f1f, 10%);
+				}
+			}
+		}
+	}
 }

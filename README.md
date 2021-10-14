@@ -41,5 +41,6 @@ The demo app is published to github pages at https://purecloudlabs.github.io/gen
 Run the following command to invoke the build and publish process:
 
 ```sh
+cd app
 npm run deploy
 ```

@@ -11,7 +11,7 @@
 		"@types/node": "^12.0.0",
 		"@types/react": "^17.0.0",
 		"@types/react-dom": "^17.0.0",
-		"genesys-dev-icons": "*",
+		"genesys-dev-icons": "^0.1.5",
 		"gh-pages": "^3.2.3",
 		"node-sass": "^6.0.1",
 		"react": "^17.0.2",
@@ -26,7 +26,9 @@
 		"predeploy": "npm run build",
 		"deploy": "gh-pages -d build",
 		"test": "react-scripts test",
-		"eject": "react-scripts eject"
+		"eject": "react-scripts eject",
+		"link": "npm uninstall genesys-dev-icons && npm link genesys-dev-icons",
+		"unlink": "npm uninstall genesys-dev-icons && yarn add genesys-dev-icons"
 	},
 	"eslintConfig": {
 		"extends": [
