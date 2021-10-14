@@ -1,8 +1,8 @@
 @font-face {
     font-family: "genesys-dev-icons";
-    src: url("./genesys-dev-icons.eot?19abd4f2bac19f7702268a8fdb193762#iefix") format("embedded-opentype"),
-url("./genesys-dev-icons.woff2?19abd4f2bac19f7702268a8fdb193762") format("woff2"),
-url("./genesys-dev-icons.woff?19abd4f2bac19f7702268a8fdb193762") format("woff");
+    src: url("./genesys-dev-icons.eot?1cea46875f4610c73202b2ee0088f7fb#iefix") format("embedded-opentype"),
+url("./genesys-dev-icons.woff2?1cea46875f4610c73202b2ee0088f7fb") format("woff2"),
+url("./genesys-dev-icons.woff?1cea46875f4610c73202b2ee0088f7fb") format("woff");
 }
 
 i[class^="icon-"]:before, i[class*=" icon-"]:before {
@@ -25,117 +25,186 @@ i[class^="icon-"]:before, i[class*=" icon-"]:before {
 .icon-app-check:before {
     content: "\f103";
 }
-.icon-app-copy:before {
+.icon-app-chevron-down:before {
     content: "\f104";
 }
-.icon-app-ellipsis-vertical:before {
+.icon-app-chevron-left:before {
     content: "\f105";
 }
-.icon-app-ellipsis:before {
+.icon-app-chevron-right:before {
     content: "\f106";
 }
-.icon-app-link:before {
+.icon-app-chevron-up:before {
     content: "\f107";
 }
-.icon-app-pin-solid:before {
+.icon-app-copy:before {
     content: "\f108";
 }
-.icon-app-pin-stroke:before {
+.icon-app-critical-solid:before {
     content: "\f109";
 }
-.icon-app-plus-solid:before {
+.icon-app-ellipsis-vertical:before {
     content: "\f10a";
 }
-.icon-app-plus-stroke:before {
+.icon-app-ellipsis:before {
     content: "\f10b";
 }
-.icon-app-plus:before {
+.icon-app-external-link:before {
     content: "\f10c";
 }
-.icon-app-times-solid:before {
+.icon-app-info-solid:before {
     content: "\f10d";
 }
-.icon-app-times-stroke:before {
+.icon-app-link:before {
     content: "\f10e";
 }
-.icon-app-times:before {
+.icon-app-pin-solid:before {
     content: "\f10f";
 }
-.icon-dest-accounts:before {
+.icon-app-pin-stroke:before {
     content: "\f110";
 }
-.icon-dest-api-explorer:before {
+.icon-app-plus-solid:before {
     content: "\f111";
 }
-.icon-dest-api:before {
+.icon-app-plus-stroke:before {
     content: "\f112";
 }
-.icon-dest-app-foundry:before {
+.icon-app-plus:before {
     content: "\f113";
 }
-.icon-dest-blog:before {
+.icon-app-star-solid-thin:before {
     content: "\f114";
 }
-.icon-dest-blueprint:before {
+.icon-app-star-solid:before {
     content: "\f115";
 }
-.icon-dest-cog:before {
+.icon-app-star-stroke-thick:before {
     content: "\f116";
 }
-.icon-dest-forum:before {
+.icon-app-star-stroke:before {
     content: "\f117";
 }
-.icon-dest-get-started:before {
+.icon-app-success-solid:before {
     content: "\f118";
 }
-.icon-dest-guide:before {
+.icon-app-thumbs-down:before {
     content: "\f119";
 }
-.icon-dest-notifications:before {
+.icon-app-thumbs-up:before {
     content: "\f11a";
 }
-.icon-dest-pages:before {
+.icon-app-times-solid:before {
     content: "\f11b";
 }
-.icon-dest-tool:before {
+.icon-app-times-stroke:before {
     content: "\f11c";
 }
-.icon-dest-tutorial:before {
+.icon-app-times:before {
     content: "\f11d";
 }
-.icon-dest-video:before {
+.icon-app-warn-solid:before {
     content: "\f11e";
 }
-.icon-ia-analytics-data-management:before {
+.icon-app-zoom-zoom-down:before {
     content: "\f11f";
 }
-.icon-ia-authorization:before {
+.icon-app-zoom-zoom-left:before {
     content: "\f120";
 }
-.icon-ia-billing:before {
+.icon-app-zoom-zoom-right:before {
     content: "\f121";
 }
-.icon-ia-digital:before {
+.icon-app-zoom-zoom-up:before {
     content: "\f122";
 }
-.icon-ia-gdpr-privacy:before {
+.icon-brand-github-large:before {
     content: "\f123";
 }
-.icon-ia-notifications-alerts:before {
+.icon-brand-github:before {
     content: "\f124";
 }
-.icon-ia-organization:before {
+.icon-brand-npm:before {
     content: "\f125";
 }
-.icon-ia-platform:before {
+.icon-dest-accounts:before {
     content: "\f126";
 }
-.icon-ia-routing:before {
+.icon-dest-api-explorer:before {
     content: "\f127";
 }
-.icon-ia-telephony:before {
+.icon-dest-api:before {
     content: "\f128";
 }
-.icon-ia-user-agent-management:before {
+.icon-dest-app-foundry:before {
     content: "\f129";
+}
+.icon-dest-blog:before {
+    content: "\f12a";
+}
+.icon-dest-blueprint:before {
+    content: "\f12b";
+}
+.icon-dest-cog:before {
+    content: "\f12c";
+}
+.icon-dest-forum:before {
+    content: "\f12d";
+}
+.icon-dest-get-started:before {
+    content: "\f12e";
+}
+.icon-dest-guide:before {
+    content: "\f12f";
+}
+.icon-dest-notifications:before {
+    content: "\f130";
+}
+.icon-dest-pages:before {
+    content: "\f131";
+}
+.icon-dest-tech-ref:before {
+    content: "\f132";
+}
+.icon-dest-tool:before {
+    content: "\f133";
+}
+.icon-dest-tutorial:before {
+    content: "\f134";
+}
+.icon-dest-video:before {
+    content: "\f135";
+}
+.icon-ia-analytics-data-management:before {
+    content: "\f136";
+}
+.icon-ia-authorization:before {
+    content: "\f137";
+}
+.icon-ia-billing:before {
+    content: "\f138";
+}
+.icon-ia-digital:before {
+    content: "\f139";
+}
+.icon-ia-gdpr-privacy:before {
+    content: "\f13a";
+}
+.icon-ia-notifications-alerts:before {
+    content: "\f13b";
+}
+.icon-ia-organization:before {
+    content: "\f13c";
+}
+.icon-ia-platform:before {
+    content: "\f13d";
+}
+.icon-ia-routing:before {
+    content: "\f13e";
+}
+.icon-ia-telephony:before {
+    content: "\f13f";
+}
+.icon-ia-user-agent-management:before {
+    content: "\f140";
 }

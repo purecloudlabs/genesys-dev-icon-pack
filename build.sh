@@ -22,6 +22,8 @@ CLEAR='\033[0m'
 OUTPUT_DIR="./dist"
 PACKAGE_DIR="./package"
 PACKAGE_RESOURCE_DIR="./package/src/resources"
+LINK_PACKAGE=$1
+
 
 # Clean output dir
 rm -rf $OUTPUT_DIR
@@ -50,4 +52,11 @@ echo -e "\n${Cyan}Building component package...${CLEAR}"
 cd $PACKAGE_DIR
 npm run build
 
-echo -e "${Green}Build successful.${CLEAR} ${Yellow}Update the version in package/package.json${CLEAR} and run ${Blue}npm publish${CLEAR} to publish this package.\n"
+# Link package locally
+if [[ $LINK_PACKAGE = "true" ]]
+then
+	echo -e "\n${Cyan}Linking package locally...${CLEAR}"
+	npm link
+fi
+
+echo -e "\n${Green}Build successful.${CLEAR} ${Yellow}Update the version in package/package.json${CLEAR} and run ${Blue}npm publish${CLEAR} to publish this package.\n"
