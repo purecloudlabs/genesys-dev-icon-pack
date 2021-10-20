@@ -5,21 +5,21 @@
     "main.js.map": "/genesys-dev-icon-pack/static/js/main.6b05e1f5.chunk.js.map",
     "runtime-main.js": "/genesys-dev-icon-pack/static/js/runtime-main.bcb889bc.js",
     "runtime-main.js.map": "/genesys-dev-icon-pack/static/js/runtime-main.bcb889bc.js.map",
-    "static/css/2.6fd5275d.chunk.css": "/genesys-dev-icon-pack/static/css/2.6fd5275d.chunk.css",
-    "static/js/2.c600ac2c.chunk.js": "/genesys-dev-icon-pack/static/js/2.c600ac2c.chunk.js",
-    "static/js/2.c600ac2c.chunk.js.map": "/genesys-dev-icon-pack/static/js/2.c600ac2c.chunk.js.map",
+    "static/css/2.cdfa1791.chunk.css": "/genesys-dev-icon-pack/static/css/2.cdfa1791.chunk.css",
+    "static/js/2.19ea0000.chunk.js": "/genesys-dev-icon-pack/static/js/2.19ea0000.chunk.js",
+    "static/js/2.19ea0000.chunk.js.map": "/genesys-dev-icon-pack/static/js/2.19ea0000.chunk.js.map",
     "static/js/3.32bbea94.chunk.js": "/genesys-dev-icon-pack/static/js/3.32bbea94.chunk.js",
     "static/js/3.32bbea94.chunk.js.map": "/genesys-dev-icon-pack/static/js/3.32bbea94.chunk.js.map",
     "index.html": "/genesys-dev-icon-pack/index.html",
-    "static/css/2.6fd5275d.chunk.css.map": "/genesys-dev-icon-pack/static/css/2.6fd5275d.chunk.css.map",
+    "static/css/2.cdfa1791.chunk.css.map": "/genesys-dev-icon-pack/static/css/2.cdfa1791.chunk.css.map",
     "static/css/main.850c8438.chunk.css.map": "/genesys-dev-icon-pack/static/css/main.850c8438.chunk.css.map",
-    "static/js/2.c600ac2c.chunk.js.LICENSE.txt": "/genesys-dev-icon-pack/static/js/2.c600ac2c.chunk.js.LICENSE.txt",
-    "static/media/genesys-dev-icons.css": "/genesys-dev-icon-pack/static/media/genesys-dev-icons.defcab24.eot"
+    "static/js/2.19ea0000.chunk.js.LICENSE.txt": "/genesys-dev-icon-pack/static/js/2.19ea0000.chunk.js.LICENSE.txt",
+    "static/media/genesys-dev-icons.css": "/genesys-dev-icon-pack/static/media/genesys-dev-icons.dbaa9895.eot"
   },
   "entrypoints": [
     "static/js/runtime-main.bcb889bc.js",
-    "static/css/2.6fd5275d.chunk.css",
-    "static/js/2.c600ac2c.chunk.js",
+    "static/css/2.cdfa1791.chunk.css",
+    "static/js/2.19ea0000.chunk.js",
     "static/css/main.850c8438.chunk.css",
     "static/js/main.6b05e1f5.chunk.js"
   ]
