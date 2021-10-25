@@ -7,6 +7,7 @@ interface IProps {
 	icon: GenesysDevIcons;
 	className?: string;
 	onClick?: GenesysDevIconClicked;
+	fontSize?: string;
 }
 
 export interface GenesysDevIconClicked {
@@ -14,9 +15,12 @@ export interface GenesysDevIconClicked {
 }
 
 export default function GenesysDevIcon(props: IProps) {
+	const style = {} as any;
+	if (props.fontSize) style.fontSize = props.fontSize;
 	return (
 		<i
 			className={`icon icon-${props.icon} ${props.className || ''}`}
+			style={style}
 			onClick={(e) => {
 				if (props.onClick) {
 					e.stopPropagation();

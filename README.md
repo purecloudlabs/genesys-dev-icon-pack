@@ -44,3 +44,19 @@ Run the following command to invoke the build and publish process:
 cd app
 npm run deploy
 ```
+
+# Imported icons
+
+The owners of trademarks and registered logos retain ownership of their respective works.
+
+## Font Awesome
+
+Font Awesome Icons used in this library are attributed to Font Awesome and are licensed under the free license found at https://fontawesome.com/license/free.
+
+## GitHub
+
+GitHub icons used in this library are attributed to GitHub and are used per the guidelines found at https://github.com/logos.
+
+## NPM
+
+NPM icons used in this library are attributed to NPM and are used per the guidelines found at https://github.com/npm/logos.

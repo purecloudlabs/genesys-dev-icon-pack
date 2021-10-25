@@ -22,7 +22,10 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var React = __importStar(require("react"));
 require("./resources/genesys-dev-icons.css");
 function GenesysDevIcon(props) {
-    return (React.createElement("i", { className: "icon icon-" + props.icon + " " + (props.className || ''), onClick: function (e) {
+    var style = {};
+    if (props.fontSize)
+        style.fontSize = props.fontSize;
+    return (React.createElement("i", { className: "icon icon-" + props.icon + " " + (props.className || ''), style: style, onClick: function (e) {
             if (props.onClick) {
                 e.stopPropagation();
                 props.onClick();

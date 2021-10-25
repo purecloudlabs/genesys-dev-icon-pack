@@ -1,5 +1,5 @@
-export declare type GenesysDevIconsId = "app-check-solid" | "app-check-stroke" | "app-check" | "app-chevron-down" | "app-chevron-left" | "app-chevron-right" | "app-chevron-up" | "app-copy" | "app-critical-solid" | "app-ellipsis-vertical" | "app-ellipsis" | "app-external-link" | "app-info-solid" | "app-link" | "app-pin-solid" | "app-pin-stroke" | "app-plus-solid" | "app-plus-stroke" | "app-plus" | "app-search" | "app-star-solid-thin" | "app-star-solid" | "app-star-stroke-thick" | "app-star-stroke" | "app-success-solid" | "app-thumbs-down" | "app-thumbs-up" | "app-times-solid" | "app-times-stroke" | "app-times" | "app-warn-solid" | "app-zoom-zoom-down" | "app-zoom-zoom-left" | "app-zoom-zoom-right" | "app-zoom-zoom-up" | "brand-github-large" | "brand-github" | "brand-npm" | "dest-accounts" | "dest-api-explorer" | "dest-api" | "dest-app-foundry" | "dest-blog" | "dest-blueprint" | "dest-cog" | "dest-forum" | "dest-get-started" | "dest-guide" | "dest-notifications" | "dest-pages" | "dest-tech-ref" | "dest-tool" | "dest-tutorial" | "dest-video" | "ia-analytics-data-management" | "ia-authorization" | "ia-billing" | "ia-digital" | "ia-gdpr-privacy" | "ia-notifications-alerts" | "ia-organization" | "ia-platform" | "ia-routing" | "ia-telephony" | "ia-user-agent-management";
-export declare type GenesysDevIconsKey = "AppCheckSolid" | "AppCheckStroke" | "AppCheck" | "AppChevronDown" | "AppChevronLeft" | "AppChevronRight" | "AppChevronUp" | "AppCopy" | "AppCriticalSolid" | "AppEllipsisVertical" | "AppEllipsis" | "AppExternalLink" | "AppInfoSolid" | "AppLink" | "AppPinSolid" | "AppPinStroke" | "AppPlusSolid" | "AppPlusStroke" | "AppPlus" | "AppSearch" | "AppStarSolidThin" | "AppStarSolid" | "AppStarStrokeThick" | "AppStarStroke" | "AppSuccessSolid" | "AppThumbsDown" | "AppThumbsUp" | "AppTimesSolid" | "AppTimesStroke" | "AppTimes" | "AppWarnSolid" | "AppZoomZoomDown" | "AppZoomZoomLeft" | "AppZoomZoomRight" | "AppZoomZoomUp" | "BrandGithubLarge" | "BrandGithub" | "BrandNpm" | "DestAccounts" | "DestApiExplorer" | "DestApi" | "DestAppFoundry" | "DestBlog" | "DestBlueprint" | "DestCog" | "DestForum" | "DestGetStarted" | "DestGuide" | "DestNotifications" | "DestPages" | "DestTechRef" | "DestTool" | "DestTutorial" | "DestVideo" | "IaAnalyticsDataManagement" | "IaAuthorization" | "IaBilling" | "IaDigital" | "IaGdprPrivacy" | "IaNotificationsAlerts" | "IaOrganization" | "IaPlatform" | "IaRouting" | "IaTelephony" | "IaUserAgentManagement";
+export declare type GenesysDevIconsId = "app-check-solid" | "app-check-stroke" | "app-check" | "app-chevron-down" | "app-chevron-left" | "app-chevron-right" | "app-chevron-up" | "app-copy" | "app-critical-solid" | "app-ellipsis-vertical" | "app-ellipsis" | "app-external-link" | "app-info-solid" | "app-link" | "app-minus-solid" | "app-minus-stroke" | "app-minus" | "app-pin-solid" | "app-pin-stroke" | "app-plus-solid" | "app-plus-stroke" | "app-plus" | "app-question-solid" | "app-search" | "app-sort-solid" | "app-star-solid-thin" | "app-star-solid" | "app-star-stroke-thick" | "app-star-stroke" | "app-success-solid" | "app-thumbs-down" | "app-thumbs-up" | "app-times-solid" | "app-times-stroke" | "app-times" | "app-warn-solid" | "app-zoom-zoom-down" | "app-zoom-zoom-left" | "app-zoom-zoom-right" | "app-zoom-zoom-up" | "brand-github-large" | "brand-github" | "brand-markdown" | "brand-npm" | "dest-accounts" | "dest-api-explorer" | "dest-api" | "dest-app-foundry" | "dest-blog" | "dest-blueprint" | "dest-cog" | "dest-forum" | "dest-get-started" | "dest-guide" | "dest-notifications" | "dest-pages" | "dest-tech-ref" | "dest-tool" | "dest-tutorial" | "dest-video" | "ia-analytics-data-management" | "ia-authorization" | "ia-billing" | "ia-digital" | "ia-gdpr-privacy" | "ia-notifications-alerts" | "ia-organization" | "ia-platform" | "ia-routing" | "ia-telephony" | "ia-user-agent-management";
+export declare type GenesysDevIconsKey = "AppCheckSolid" | "AppCheckStroke" | "AppCheck" | "AppChevronDown" | "AppChevronLeft" | "AppChevronRight" | "AppChevronUp" | "AppCopy" | "AppCriticalSolid" | "AppEllipsisVertical" | "AppEllipsis" | "AppExternalLink" | "AppInfoSolid" | "AppLink" | "AppMinusSolid" | "AppMinusStroke" | "AppMinus" | "AppPinSolid" | "AppPinStroke" | "AppPlusSolid" | "AppPlusStroke" | "AppPlus" | "AppQuestionSolid" | "AppSearch" | "AppSortSolid" | "AppStarSolidThin" | "AppStarSolid" | "AppStarStrokeThick" | "AppStarStroke" | "AppSuccessSolid" | "AppThumbsDown" | "AppThumbsUp" | "AppTimesSolid" | "AppTimesStroke" | "AppTimes" | "AppWarnSolid" | "AppZoomZoomDown" | "AppZoomZoomLeft" | "AppZoomZoomRight" | "AppZoomZoomUp" | "BrandGithubLarge" | "BrandGithub" | "BrandMarkdown" | "BrandNpm" | "DestAccounts" | "DestApiExplorer" | "DestApi" | "DestAppFoundry" | "DestBlog" | "DestBlueprint" | "DestCog" | "DestForum" | "DestGetStarted" | "DestGuide" | "DestNotifications" | "DestPages" | "DestTechRef" | "DestTool" | "DestTutorial" | "DestVideo" | "IaAnalyticsDataManagement" | "IaAuthorization" | "IaBilling" | "IaDigital" | "IaGdprPrivacy" | "IaNotificationsAlerts" | "IaOrganization" | "IaPlatform" | "IaRouting" | "IaTelephony" | "IaUserAgentManagement";
 export declare enum GenesysDevIcons {
     AppCheckSolid = "app-check-solid",
     AppCheckStroke = "app-check-stroke",
@@ -15,12 +15,17 @@ export declare enum GenesysDevIcons {
     AppExternalLink = "app-external-link",
     AppInfoSolid = "app-info-solid",
     AppLink = "app-link",
+    AppMinusSolid = "app-minus-solid",
+    AppMinusStroke = "app-minus-stroke",
+    AppMinus = "app-minus",
     AppPinSolid = "app-pin-solid",
     AppPinStroke = "app-pin-stroke",
     AppPlusSolid = "app-plus-solid",
     AppPlusStroke = "app-plus-stroke",
     AppPlus = "app-plus",
+    AppQuestionSolid = "app-question-solid",
     AppSearch = "app-search",
+    AppSortSolid = "app-sort-solid",
     AppStarSolidThin = "app-star-solid-thin",
     AppStarSolid = "app-star-solid",
     AppStarStrokeThick = "app-star-stroke-thick",
@@ -38,6 +43,7 @@ export declare enum GenesysDevIcons {
     AppZoomZoomUp = "app-zoom-zoom-up",
     BrandGithubLarge = "brand-github-large",
     BrandGithub = "brand-github",
+    BrandMarkdown = "brand-markdown",
     BrandNpm = "brand-npm",
     DestAccounts = "dest-accounts",
     DestApiExplorer = "dest-api-explorer",

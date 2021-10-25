@@ -5,6 +5,7 @@ interface IProps {
     icon: GenesysDevIcons;
     className?: string;
     onClick?: GenesysDevIconClicked;
+    fontSize?: string;
 }
 export interface GenesysDevIconClicked {
     (): void;

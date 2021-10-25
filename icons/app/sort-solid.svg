@@ -4,22 +4,22 @@
 <vectornator:setting key="DimensionsVisible" value="1"/>
 <vectornator:setting key="PencilOnly" value="0"/>
 <vectornator:setting key="SnapToPoints" value="0"/>
-<vectornator:setting key="OutlineMode" value="0"/>
-<vectornator:setting key="RulersVisible" value="1"/>
-<vectornator:setting key="CMYKEnabledKey" value="0"/>
-<vectornator:setting key="SnapToEdges" value="0"/>
 <vectornator:setting key="GuidesVisible" value="1"/>
+<vectornator:setting key="CMYKEnabledKey" value="0"/>
+<vectornator:setting key="RulersVisible" value="1"/>
+<vectornator:setting key="SnapToEdges" value="0"/>
+<vectornator:setting key="OutlineMode" value="0"/>
 <vectornator:setting key="DisplayWhiteBackground" value="0"/>
 <vectornator:setting key="doHistoryDisabled" value="0"/>
 <vectornator:setting key="SnapToGuides" value="1"/>
 <vectornator:setting key="TimeLapseWatermarkDisabled" value="0"/>
-<vectornator:setting key="DynamicGuides" value="0"/>
+<vectornator:setting key="Units" value="Points"/>
 <vectornator:setting key="IsolateActiveLayer" value="0"/>
 <vectornator:setting key="SnapToGrid" value="0"/>
-<vectornator:setting key="Units" value="Points"/>
+<vectornator:setting key="DynamicGuides" value="0"/>
 </metadata>
 <defs/>
 <g id="Untitled" vectornator:layerName="Untitled">
-<path d="M18+0C8.05887+0+1.20087e-07+8.05887+0+18C0+27.9411+8.05887+36+18+36C27.9411+36+36+27.9411+36+18C36+8.05887+27.9411+1.20087e-07+18+0ZM18.0156+10.0781C18.5364+10.0781+18.9531+10.4949+18.9531+11.0156L18.9531+17.0469L24.9844+17.0469C25.5051+17.0469+25.9219+17.4949+25.9219+18.0156C25.9219+18.5364+25.5051+18.9531+24.9844+18.9531L18.9531+18.9531L18.9531+24.9844C18.9531+25.5051+18.5364+25.9219+18.0156+25.9219C17.4951+25.9219+17.0781+25.5051+17.0781+24.9844L17.0781+18.9531L11.0156+18.9531C10.4949+18.9531+10.0781+18.5364+10.0781+18.0156C10.0781+17.4949+10.4949+17.0469+11.0156+17.0469L17.0781+17.0469L17.0781+11.0156C17.0781+10.4949+17.4951+10.0781+18.0156+10.0781Z" opacity="1" fill="#2f7bb1"/>
+<path d="M7.23888+20.8937L28.7611+20.8937C30.6963+20.8937+31.6639+23.2359+30.2984+24.6014L19.5373+35.3625C18.6873+36.2125+17.3127+36.2125+16.4717+35.3625L5.70158+24.6014C4.3361+23.2359+5.30369+20.8937+7.23888+20.8937ZM30.2984+11.3986L19.5373+0.637529C18.6873-0.212509+17.3127-0.212509+16.4717+0.637529L5.70158+11.3986C4.3361+12.7641+5.30369+15.1063+7.23888+15.1063L28.7611+15.1063C30.6963+15.1063+31.6639+12.7641+30.2984+11.3986Z" opacity="1" fill="#000000"/>
 </g>
 </svg>
