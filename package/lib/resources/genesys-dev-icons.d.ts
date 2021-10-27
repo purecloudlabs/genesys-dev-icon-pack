@@ -1,5 +1,5 @@
-export declare type GenesysDevIconsId = "app-check-solid" | "app-check-stroke" | "app-check" | "app-chevron-down" | "app-chevron-left" | "app-chevron-right" | "app-chevron-up" | "app-copy" | "app-critical-solid" | "app-ellipsis-vertical" | "app-ellipsis" | "app-external-link" | "app-info-solid" | "app-link" | "app-minus-solid" | "app-minus-stroke" | "app-minus" | "app-pin-solid" | "app-pin-stroke" | "app-plus-solid" | "app-plus-stroke" | "app-plus" | "app-question-solid" | "app-search" | "app-sort-solid" | "app-star-solid-thin" | "app-star-solid" | "app-star-stroke-thick" | "app-star-stroke" | "app-success-solid" | "app-thumbs-down" | "app-thumbs-up" | "app-times-solid" | "app-times-stroke" | "app-times" | "app-warn-solid" | "app-zoom-zoom-down" | "app-zoom-zoom-left" | "app-zoom-zoom-right" | "app-zoom-zoom-up" | "brand-github-large" | "brand-github" | "brand-markdown" | "brand-npm" | "dest-accounts" | "dest-api-explorer" | "dest-api" | "dest-app-foundry" | "dest-blog" | "dest-blueprint" | "dest-cog" | "dest-forum" | "dest-get-started" | "dest-guide" | "dest-notifications" | "dest-pages" | "dest-tech-ref" | "dest-tool" | "dest-tutorial" | "dest-video" | "ia-analytics-data-management" | "ia-authorization" | "ia-billing" | "ia-digital" | "ia-gdpr-privacy" | "ia-notifications-alerts" | "ia-organization" | "ia-platform" | "ia-routing" | "ia-telephony" | "ia-user-agent-management";
-export declare type GenesysDevIconsKey = "AppCheckSolid" | "AppCheckStroke" | "AppCheck" | "AppChevronDown" | "AppChevronLeft" | "AppChevronRight" | "AppChevronUp" | "AppCopy" | "AppCriticalSolid" | "AppEllipsisVertical" | "AppEllipsis" | "AppExternalLink" | "AppInfoSolid" | "AppLink" | "AppMinusSolid" | "AppMinusStroke" | "AppMinus" | "AppPinSolid" | "AppPinStroke" | "AppPlusSolid" | "AppPlusStroke" | "AppPlus" | "AppQuestionSolid" | "AppSearch" | "AppSortSolid" | "AppStarSolidThin" | "AppStarSolid" | "AppStarStrokeThick" | "AppStarStroke" | "AppSuccessSolid" | "AppThumbsDown" | "AppThumbsUp" | "AppTimesSolid" | "AppTimesStroke" | "AppTimes" | "AppWarnSolid" | "AppZoomZoomDown" | "AppZoomZoomLeft" | "AppZoomZoomRight" | "AppZoomZoomUp" | "BrandGithubLarge" | "BrandGithub" | "BrandMarkdown" | "BrandNpm" | "DestAccounts" | "DestApiExplorer" | "DestApi" | "DestAppFoundry" | "DestBlog" | "DestBlueprint" | "DestCog" | "DestForum" | "DestGetStarted" | "DestGuide" | "DestNotifications" | "DestPages" | "DestTechRef" | "DestTool" | "DestTutorial" | "DestVideo" | "IaAnalyticsDataManagement" | "IaAuthorization" | "IaBilling" | "IaDigital" | "IaGdprPrivacy" | "IaNotificationsAlerts" | "IaOrganization" | "IaPlatform" | "IaRouting" | "IaTelephony" | "IaUserAgentManagement";
+export declare type GenesysDevIconsId = "app-check-solid" | "app-check-stroke" | "app-check" | "app-chevron-down" | "app-chevron-left" | "app-chevron-right" | "app-chevron-up" | "app-copy" | "app-critical-solid" | "app-ellipsis-vertical" | "app-ellipsis" | "app-expand" | "app-external-link" | "app-filter" | "app-info-solid" | "app-link" | "app-minus-solid" | "app-minus-stroke" | "app-minus" | "app-pin-solid" | "app-pin-stroke" | "app-plus-solid" | "app-plus-stroke" | "app-plus" | "app-question-solid" | "app-search" | "app-sort-down" | "app-sort-up" | "app-sort" | "app-star-solid-thin" | "app-star-solid" | "app-star-stroke-thick" | "app-star-stroke" | "app-success-solid" | "app-thumbs-down" | "app-thumbs-up" | "app-times-solid" | "app-times-stroke" | "app-times" | "app-warn-solid" | "app-zoom-zoom-down" | "app-zoom-zoom-left" | "app-zoom-zoom-right" | "app-zoom-zoom-up" | "brand-github-large" | "brand-github" | "brand-markdown" | "brand-npm" | "dest-accounts" | "dest-api-explorer" | "dest-api" | "dest-app-foundry" | "dest-blog" | "dest-blueprint" | "dest-cog" | "dest-forum" | "dest-get-started" | "dest-guide" | "dest-notifications" | "dest-pages" | "dest-tech-ref" | "dest-tool" | "dest-tutorial" | "dest-video" | "dest-wrench" | "ia-analytics-data-management" | "ia-authorization" | "ia-billing" | "ia-digital" | "ia-gdpr-privacy" | "ia-notifications-alerts" | "ia-organization" | "ia-platform" | "ia-routing" | "ia-telephony" | "ia-user-agent-management";
+export declare type GenesysDevIconsKey = "AppCheckSolid" | "AppCheckStroke" | "AppCheck" | "AppChevronDown" | "AppChevronLeft" | "AppChevronRight" | "AppChevronUp" | "AppCopy" | "AppCriticalSolid" | "AppEllipsisVertical" | "AppEllipsis" | "AppExpand" | "AppExternalLink" | "AppFilter" | "AppInfoSolid" | "AppLink" | "AppMinusSolid" | "AppMinusStroke" | "AppMinus" | "AppPinSolid" | "AppPinStroke" | "AppPlusSolid" | "AppPlusStroke" | "AppPlus" | "AppQuestionSolid" | "AppSearch" | "AppSortDown" | "AppSortUp" | "AppSort" | "AppStarSolidThin" | "AppStarSolid" | "AppStarStrokeThick" | "AppStarStroke" | "AppSuccessSolid" | "AppThumbsDown" | "AppThumbsUp" | "AppTimesSolid" | "AppTimesStroke" | "AppTimes" | "AppWarnSolid" | "AppZoomZoomDown" | "AppZoomZoomLeft" | "AppZoomZoomRight" | "AppZoomZoomUp" | "BrandGithubLarge" | "BrandGithub" | "BrandMarkdown" | "BrandNpm" | "DestAccounts" | "DestApiExplorer" | "DestApi" | "DestAppFoundry" | "DestBlog" | "DestBlueprint" | "DestCog" | "DestForum" | "DestGetStarted" | "DestGuide" | "DestNotifications" | "DestPages" | "DestTechRef" | "DestTool" | "DestTutorial" | "DestVideo" | "DestWrench" | "IaAnalyticsDataManagement" | "IaAuthorization" | "IaBilling" | "IaDigital" | "IaGdprPrivacy" | "IaNotificationsAlerts" | "IaOrganization" | "IaPlatform" | "IaRouting" | "IaTelephony" | "IaUserAgentManagement";
 export declare enum GenesysDevIcons {
     AppCheckSolid = "app-check-solid",
     AppCheckStroke = "app-check-stroke",
@@ -12,7 +12,9 @@ export declare enum GenesysDevIcons {
     AppCriticalSolid = "app-critical-solid",
     AppEllipsisVertical = "app-ellipsis-vertical",
     AppEllipsis = "app-ellipsis",
+    AppExpand = "app-expand",
     AppExternalLink = "app-external-link",
+    AppFilter = "app-filter",
     AppInfoSolid = "app-info-solid",
     AppLink = "app-link",
     AppMinusSolid = "app-minus-solid",
@@ -25,7 +27,9 @@ export declare enum GenesysDevIcons {
     AppPlus = "app-plus",
     AppQuestionSolid = "app-question-solid",
     AppSearch = "app-search",
-    AppSortSolid = "app-sort-solid",
+    AppSortDown = "app-sort-down",
+    AppSortUp = "app-sort-up",
+    AppSort = "app-sort",
     AppStarSolidThin = "app-star-solid-thin",
     AppStarSolid = "app-star-solid",
     AppStarStrokeThick = "app-star-stroke-thick",
@@ -61,6 +65,7 @@ export declare enum GenesysDevIcons {
     DestTool = "dest-tool",
     DestTutorial = "dest-tutorial",
     DestVideo = "dest-video",
+    DestWrench = "dest-wrench",
     IaAnalyticsDataManagement = "ia-analytics-data-management",
     IaAuthorization = "ia-authorization",
     IaBilling = "ia-billing",

@@ -1,8 +1,8 @@
 @font-face {
     font-family: "genesys-dev-icons";
-    src: url("./genesys-dev-icons.eot?199f0ad4896da244ad550707e30a45cd#iefix") format("embedded-opentype"),
-url("./genesys-dev-icons.woff2?199f0ad4896da244ad550707e30a45cd") format("woff2"),
-url("./genesys-dev-icons.woff?199f0ad4896da244ad550707e30a45cd") format("woff");
+    src: url("./genesys-dev-icons.eot?247212e3c191b2e177f00e6105f3877b#iefix") format("embedded-opentype"),
+url("./genesys-dev-icons.woff2?247212e3c191b2e177f00e6105f3877b") format("woff2"),
+url("./genesys-dev-icons.woff?247212e3c191b2e177f00e6105f3877b") format("woff");
 }
 
 i[class^="icon-"]:before, i[class*=" icon-"]:before {
@@ -49,183 +49,198 @@ i[class^="icon-"]:before, i[class*=" icon-"]:before {
 .icon-app-ellipsis:before {
     content: "\f10b";
 }
-.icon-app-external-link:before {
+.icon-app-expand:before {
     content: "\f10c";
 }
-.icon-app-info-solid:before {
+.icon-app-external-link:before {
     content: "\f10d";
 }
-.icon-app-link:before {
+.icon-app-filter:before {
     content: "\f10e";
 }
-.icon-app-minus-solid:before {
+.icon-app-info-solid:before {
     content: "\f10f";
 }
-.icon-app-minus-stroke:before {
+.icon-app-link:before {
     content: "\f110";
 }
-.icon-app-minus:before {
+.icon-app-minus-solid:before {
     content: "\f111";
 }
-.icon-app-pin-solid:before {
+.icon-app-minus-stroke:before {
     content: "\f112";
 }
-.icon-app-pin-stroke:before {
+.icon-app-minus:before {
     content: "\f113";
 }
-.icon-app-plus-solid:before {
+.icon-app-pin-solid:before {
     content: "\f114";
 }
-.icon-app-plus-stroke:before {
+.icon-app-pin-stroke:before {
     content: "\f115";
 }
-.icon-app-plus:before {
+.icon-app-plus-solid:before {
     content: "\f116";
 }
-.icon-app-question-solid:before {
+.icon-app-plus-stroke:before {
     content: "\f117";
 }
-.icon-app-search:before {
+.icon-app-plus:before {
     content: "\f118";
 }
-.icon-app-sort-solid:before {
+.icon-app-question-solid:before {
     content: "\f119";
 }
-.icon-app-star-solid-thin:before {
+.icon-app-search:before {
     content: "\f11a";
 }
-.icon-app-star-solid:before {
+.icon-app-sort-down:before {
     content: "\f11b";
 }
-.icon-app-star-stroke-thick:before {
+.icon-app-sort-up:before {
     content: "\f11c";
 }
-.icon-app-star-stroke:before {
+.icon-app-sort:before {
     content: "\f11d";
 }
-.icon-app-success-solid:before {
+.icon-app-star-solid-thin:before {
     content: "\f11e";
 }
-.icon-app-thumbs-down:before {
+.icon-app-star-solid:before {
     content: "\f11f";
 }
-.icon-app-thumbs-up:before {
+.icon-app-star-stroke-thick:before {
     content: "\f120";
 }
-.icon-app-times-solid:before {
+.icon-app-star-stroke:before {
     content: "\f121";
 }
-.icon-app-times-stroke:before {
+.icon-app-success-solid:before {
     content: "\f122";
 }
-.icon-app-times:before {
+.icon-app-thumbs-down:before {
     content: "\f123";
 }
-.icon-app-warn-solid:before {
+.icon-app-thumbs-up:before {
     content: "\f124";
 }
-.icon-app-zoom-zoom-down:before {
+.icon-app-times-solid:before {
     content: "\f125";
 }
-.icon-app-zoom-zoom-left:before {
+.icon-app-times-stroke:before {
     content: "\f126";
 }
-.icon-app-zoom-zoom-right:before {
+.icon-app-times:before {
     content: "\f127";
 }
-.icon-app-zoom-zoom-up:before {
+.icon-app-warn-solid:before {
     content: "\f128";
 }
-.icon-brand-github-large:before {
+.icon-app-zoom-zoom-down:before {
     content: "\f129";
 }
-.icon-brand-github:before {
+.icon-app-zoom-zoom-left:before {
     content: "\f12a";
 }
-.icon-brand-markdown:before {
+.icon-app-zoom-zoom-right:before {
     content: "\f12b";
 }
-.icon-brand-npm:before {
+.icon-app-zoom-zoom-up:before {
     content: "\f12c";
 }
-.icon-dest-accounts:before {
+.icon-brand-github-large:before {
     content: "\f12d";
 }
-.icon-dest-api-explorer:before {
+.icon-brand-github:before {
     content: "\f12e";
 }
-.icon-dest-api:before {
+.icon-brand-markdown:before {
     content: "\f12f";
 }
-.icon-dest-app-foundry:before {
+.icon-brand-npm:before {
     content: "\f130";
 }
-.icon-dest-blog:before {
+.icon-dest-accounts:before {
     content: "\f131";
 }
-.icon-dest-blueprint:before {
+.icon-dest-api-explorer:before {
     content: "\f132";
 }
-.icon-dest-cog:before {
+.icon-dest-api:before {
     content: "\f133";
 }
-.icon-dest-forum:before {
+.icon-dest-app-foundry:before {
     content: "\f134";
 }
-.icon-dest-get-started:before {
+.icon-dest-blog:before {
     content: "\f135";
 }
-.icon-dest-guide:before {
+.icon-dest-blueprint:before {
     content: "\f136";
 }
-.icon-dest-notifications:before {
+.icon-dest-cog:before {
     content: "\f137";
 }
-.icon-dest-pages:before {
+.icon-dest-forum:before {
     content: "\f138";
 }
-.icon-dest-tech-ref:before {
+.icon-dest-get-started:before {
     content: "\f139";
 }
-.icon-dest-tool:before {
+.icon-dest-guide:before {
     content: "\f13a";
 }
-.icon-dest-tutorial:before {
+.icon-dest-notifications:before {
     content: "\f13b";
 }
-.icon-dest-video:before {
+.icon-dest-pages:before {
     content: "\f13c";
 }
-.icon-ia-analytics-data-management:before {
+.icon-dest-tech-ref:before {
     content: "\f13d";
 }
-.icon-ia-authorization:before {
+.icon-dest-tool:before {
     content: "\f13e";
 }
-.icon-ia-billing:before {
+.icon-dest-tutorial:before {
     content: "\f13f";
 }
-.icon-ia-digital:before {
+.icon-dest-video:before {
     content: "\f140";
 }
-.icon-ia-gdpr-privacy:before {
+.icon-dest-wrench:before {
     content: "\f141";
 }
-.icon-ia-notifications-alerts:before {
+.icon-ia-analytics-data-management:before {
     content: "\f142";
 }
-.icon-ia-organization:before {
+.icon-ia-authorization:before {
     content: "\f143";
 }
-.icon-ia-platform:before {
+.icon-ia-billing:before {
     content: "\f144";
 }
-.icon-ia-routing:before {
+.icon-ia-digital:before {
     content: "\f145";
 }
-.icon-ia-telephony:before {
+.icon-ia-gdpr-privacy:before {
     content: "\f146";
 }
-.icon-ia-user-agent-management:before {
+.icon-ia-notifications-alerts:before {
     content: "\f147";
+}
+.icon-ia-organization:before {
+    content: "\f148";
+}
+.icon-ia-platform:before {
+    content: "\f149";
+}
+.icon-ia-routing:before {
+    content: "\f14a";
+}
+.icon-ia-telephony:before {
+    content: "\f14b";
+}
+.icon-ia-user-agent-management:before {
+    content: "\f14c";
 }
