@@ -4,26 +4,26 @@
 <vectornator:setting key="DimensionsVisible" value="1"/>
 <vectornator:setting key="PencilOnly" value="0"/>
 <vectornator:setting key="SnapToPoints" value="0"/>
+<vectornator:setting key="GuidesVisible" value="1"/>
 <vectornator:setting key="OutlineMode" value="0"/>
-<vectornator:setting key="CMYKEnabledKey" value="0"/>
 <vectornator:setting key="RulersVisible" value="1"/>
 <vectornator:setting key="SnapToEdges" value="0"/>
-<vectornator:setting key="GuidesVisible" value="1"/>
+<vectornator:setting key="CMYKEnabledKey" value="0"/>
 <vectornator:setting key="DisplayWhiteBackground" value="0"/>
 <vectornator:setting key="doHistoryDisabled" value="0"/>
 <vectornator:setting key="SnapToGuides" value="1"/>
 <vectornator:setting key="TimeLapseWatermarkDisabled" value="0"/>
 <vectornator:setting key="Units" value="Points"/>
 <vectornator:setting key="DynamicGuides" value="0"/>
-<vectornator:setting key="IsolateActiveLayer" value="0"/>
 <vectornator:setting key="SnapToGrid" value="0"/>
+<vectornator:setting key="IsolateActiveLayer" value="0"/>
 </metadata>
 <defs/>
-<g id="Untitled" vectornator:layerName="Untitled">
+<g id="Layer 1" vectornator:layerName="Layer 1">
 <g opacity="1">
-<path d="M30.5999+11.9994C33.5823+11.9994+36+14.6857+36+17.9995C36+21.3133+33.5823+23.9996+30.5999+23.9996C27.6175+23.9996+25.1998+21.3133+25.1998+17.9995C25.1998+14.6857+27.6175+11.9994+30.5999+11.9994Z" fill-rule="evenodd" fill="#2f7bb1" opacity="1"/>
-<path d="M17.999+12.0004C20.9814+12.0004+23.3991+14.6867+23.3991+18.0005C23.3991+21.3143+20.9814+24.0006+17.999+24.0006C15.0166+24.0006+12.5989+21.3143+12.5989+18.0005C12.5989+14.6867+15.0166+12.0004+17.999+12.0004Z" fill-rule="evenodd" fill="#2f7bb1" opacity="1"/>
-<path d="M5.4001+12.0004C8.3825+12.0004+10.8002+14.6867+10.8002+18.0005C10.8002+21.3143+8.3825+24.0006+5.4001+24.0006C2.4177+24.0006-2.12465e-08+21.3143+1.23604e-07+18.0005C2.68455e-07+14.6867+2.4177+12.0004+5.4001+12.0004Z" fill-rule="evenodd" fill="#2f7bb1" opacity="1"/>
+<path d="M36+18L36+18C36+20.6318+33.8665+22.7653+31.2347+22.7653L31.2347+22.7653C28.6029+22.7653+26.4694+20.6318+26.4694+18L26.4694+18C26.4694+15.3682+28.6029+13.2347+31.2347+13.2347L31.2347+13.2347C33.8665+13.2347+36+15.3682+36+18Z" opacity="1" fill="#2f7bb1"/>
+<path d="M22.7653+18L22.7653+18C22.7653+20.6318+20.6318+22.7653+18+22.7653L18+22.7653C15.3682+22.7653+13.2347+20.6318+13.2347+18L13.2347+18C13.2347+15.3682+15.3682+13.2347+18+13.2347L18+13.2347C20.6318+13.2347+22.7653+15.3682+22.7653+18Z" opacity="1" fill="#2f7bb1"/>
+<path d="M9.5306+18L9.5306+18C9.5306+20.6318+7.3971+22.7653+4.7653+22.7653L4.7653+22.7653C2.1335+22.7653+8.55089e-07+20.6318+6.56393e-07+18L6.56393e-07+18C4.57698e-07+15.3682+2.1335+13.2347+4.7653+13.2347L4.7653+13.2347C7.3971+13.2347+9.5306+15.3682+9.5306+18Z" opacity="1" fill="#2f7bb1"/>
 </g>
 </g>
 </svg>
