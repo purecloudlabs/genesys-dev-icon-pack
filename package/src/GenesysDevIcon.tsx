@@ -24,6 +24,7 @@ export default function GenesysDevIcon(props: IProps) {
 			onClick={(e) => {
 				if (props.onClick) {
 					e.stopPropagation();
+					e.preventDefault();
 					props.onClick();
 				}
 			}}

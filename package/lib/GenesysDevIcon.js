@@ -28,6 +28,7 @@ function GenesysDevIcon(props) {
     return (React.createElement("i", { className: "icon icon-" + props.icon + " " + (props.className || ''), style: style, onClick: function (e) {
             if (props.onClick) {
                 e.stopPropagation();
+                e.preventDefault();
                 props.onClick();
             }
         } }));
