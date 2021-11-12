@@ -22,6 +22,7 @@ export type GenesysDevIconsId =
   | "app-minus-solid"
   | "app-minus-stroke"
   | "app-minus"
+  | "app-moon"
   | "app-pin-solid"
   | "app-pin-stroke"
   | "app-plus-solid"
@@ -37,6 +38,7 @@ export type GenesysDevIconsId =
   | "app-star-stroke-thick"
   | "app-star-stroke"
   | "app-success-solid"
+  | "app-sun"
   | "app-thumbs-down"
   | "app-thumbs-up"
   | "app-times-solid"
@@ -104,6 +106,7 @@ export type GenesysDevIconsKey =
   | "AppMinusSolid"
   | "AppMinusStroke"
   | "AppMinus"
+  | "AppMoon"
   | "AppPinSolid"
   | "AppPinStroke"
   | "AppPlusSolid"
@@ -119,6 +122,7 @@ export type GenesysDevIconsKey =
   | "AppStarStrokeThick"
   | "AppStarStroke"
   | "AppSuccessSolid"
+  | "AppSun"
   | "AppThumbsDown"
   | "AppThumbsUp"
   | "AppTimesSolid"
@@ -186,6 +190,7 @@ export enum GenesysDevIcons {
   AppMinusSolid = "app-minus-solid",
   AppMinusStroke = "app-minus-stroke",
   AppMinus = "app-minus",
+  AppMoon = "app-moon",
   AppPinSolid = "app-pin-solid",
   AppPinStroke = "app-pin-stroke",
   AppPlusSolid = "app-plus-solid",
@@ -201,6 +206,7 @@ export enum GenesysDevIcons {
   AppStarStrokeThick = "app-star-stroke-thick",
   AppStarStroke = "app-star-stroke",
   AppSuccessSolid = "app-success-solid",
+  AppSun = "app-sun",
   AppThumbsDown = "app-thumbs-down",
   AppThumbsUp = "app-thumbs-up",
   AppTimesSolid = "app-times-solid",
@@ -269,61 +275,63 @@ export const GENESYS_DEV_ICONS_CODEPOINTS: { [key in GenesysDevIcons]: string } 
   [GenesysDevIcons.AppMinusSolid]: "61717",
   [GenesysDevIcons.AppMinusStroke]: "61718",
   [GenesysDevIcons.AppMinus]: "61719",
-  [GenesysDevIcons.AppPinSolid]: "61720",
-  [GenesysDevIcons.AppPinStroke]: "61721",
-  [GenesysDevIcons.AppPlusSolid]: "61722",
-  [GenesysDevIcons.AppPlusStroke]: "61723",
-  [GenesysDevIcons.AppPlus]: "61724",
-  [GenesysDevIcons.AppQuestionSolid]: "61725",
-  [GenesysDevIcons.AppSearch]: "61726",
-  [GenesysDevIcons.AppSortDown]: "61727",
-  [GenesysDevIcons.AppSortUp]: "61728",
-  [GenesysDevIcons.AppSort]: "61729",
-  [GenesysDevIcons.AppStarSolidThin]: "61730",
-  [GenesysDevIcons.AppStarSolid]: "61731",
-  [GenesysDevIcons.AppStarStrokeThick]: "61732",
-  [GenesysDevIcons.AppStarStroke]: "61733",
-  [GenesysDevIcons.AppSuccessSolid]: "61734",
-  [GenesysDevIcons.AppThumbsDown]: "61735",
-  [GenesysDevIcons.AppThumbsUp]: "61736",
-  [GenesysDevIcons.AppTimesSolid]: "61737",
-  [GenesysDevIcons.AppTimesStroke]: "61738",
-  [GenesysDevIcons.AppTimes]: "61739",
-  [GenesysDevIcons.AppWarnSolid]: "61740",
-  [GenesysDevIcons.AppZoomZoomDown]: "61741",
-  [GenesysDevIcons.AppZoomZoomLeft]: "61742",
-  [GenesysDevIcons.AppZoomZoomRight]: "61743",
-  [GenesysDevIcons.AppZoomZoomUp]: "61744",
-  [GenesysDevIcons.BrandGithubLarge]: "61745",
-  [GenesysDevIcons.BrandGithub]: "61746",
-  [GenesysDevIcons.BrandMarkdown]: "61747",
-  [GenesysDevIcons.BrandNpm]: "61748",
-  [GenesysDevIcons.DestAccounts]: "61749",
-  [GenesysDevIcons.DestApiExplorer]: "61750",
-  [GenesysDevIcons.DestApi]: "61751",
-  [GenesysDevIcons.DestAppFoundry]: "61752",
-  [GenesysDevIcons.DestBlog]: "61753",
-  [GenesysDevIcons.DestBlueprint]: "61754",
-  [GenesysDevIcons.DestCog]: "61755",
-  [GenesysDevIcons.DestForum]: "61756",
-  [GenesysDevIcons.DestGetStarted]: "61757",
-  [GenesysDevIcons.DestGuide]: "61758",
-  [GenesysDevIcons.DestNotifications]: "61759",
-  [GenesysDevIcons.DestPages]: "61760",
-  [GenesysDevIcons.DestTechRef]: "61761",
-  [GenesysDevIcons.DestTool]: "61762",
-  [GenesysDevIcons.DestTutorial]: "61763",
-  [GenesysDevIcons.DestVideo]: "61764",
-  [GenesysDevIcons.DestWrench]: "61765",
-  [GenesysDevIcons.IaAnalyticsDataManagement]: "61766",
-  [GenesysDevIcons.IaAuthorization]: "61767",
-  [GenesysDevIcons.IaBilling]: "61768",
-  [GenesysDevIcons.IaDigital]: "61769",
-  [GenesysDevIcons.IaGdprPrivacy]: "61770",
-  [GenesysDevIcons.IaNotificationsAlerts]: "61771",
-  [GenesysDevIcons.IaOrganization]: "61772",
-  [GenesysDevIcons.IaPlatform]: "61773",
-  [GenesysDevIcons.IaRouting]: "61774",
-  [GenesysDevIcons.IaTelephony]: "61775",
-  [GenesysDevIcons.IaUserAgentManagement]: "61776",
+  [GenesysDevIcons.AppMoon]: "61720",
+  [GenesysDevIcons.AppPinSolid]: "61721",
+  [GenesysDevIcons.AppPinStroke]: "61722",
+  [GenesysDevIcons.AppPlusSolid]: "61723",
+  [GenesysDevIcons.AppPlusStroke]: "61724",
+  [GenesysDevIcons.AppPlus]: "61725",
+  [GenesysDevIcons.AppQuestionSolid]: "61726",
+  [GenesysDevIcons.AppSearch]: "61727",
+  [GenesysDevIcons.AppSortDown]: "61728",
+  [GenesysDevIcons.AppSortUp]: "61729",
+  [GenesysDevIcons.AppSort]: "61730",
+  [GenesysDevIcons.AppStarSolidThin]: "61731",
+  [GenesysDevIcons.AppStarSolid]: "61732",
+  [GenesysDevIcons.AppStarStrokeThick]: "61733",
+  [GenesysDevIcons.AppStarStroke]: "61734",
+  [GenesysDevIcons.AppSuccessSolid]: "61735",
+  [GenesysDevIcons.AppSun]: "61736",
+  [GenesysDevIcons.AppThumbsDown]: "61737",
+  [GenesysDevIcons.AppThumbsUp]: "61738",
+  [GenesysDevIcons.AppTimesSolid]: "61739",
+  [GenesysDevIcons.AppTimesStroke]: "61740",
+  [GenesysDevIcons.AppTimes]: "61741",
+  [GenesysDevIcons.AppWarnSolid]: "61742",
+  [GenesysDevIcons.AppZoomZoomDown]: "61743",
+  [GenesysDevIcons.AppZoomZoomLeft]: "61744",
+  [GenesysDevIcons.AppZoomZoomRight]: "61745",
+  [GenesysDevIcons.AppZoomZoomUp]: "61746",
+  [GenesysDevIcons.BrandGithubLarge]: "61747",
+  [GenesysDevIcons.BrandGithub]: "61748",
+  [GenesysDevIcons.BrandMarkdown]: "61749",
+  [GenesysDevIcons.BrandNpm]: "61750",
+  [GenesysDevIcons.DestAccounts]: "61751",
+  [GenesysDevIcons.DestApiExplorer]: "61752",
+  [GenesysDevIcons.DestApi]: "61753",
+  [GenesysDevIcons.DestAppFoundry]: "61754",
+  [GenesysDevIcons.DestBlog]: "61755",
+  [GenesysDevIcons.DestBlueprint]: "61756",
+  [GenesysDevIcons.DestCog]: "61757",
+  [GenesysDevIcons.DestForum]: "61758",
+  [GenesysDevIcons.DestGetStarted]: "61759",
+  [GenesysDevIcons.DestGuide]: "61760",
+  [GenesysDevIcons.DestNotifications]: "61761",
+  [GenesysDevIcons.DestPages]: "61762",
+  [GenesysDevIcons.DestTechRef]: "61763",
+  [GenesysDevIcons.DestTool]: "61764",
+  [GenesysDevIcons.DestTutorial]: "61765",
+  [GenesysDevIcons.DestVideo]: "61766",
+  [GenesysDevIcons.DestWrench]: "61767",
+  [GenesysDevIcons.IaAnalyticsDataManagement]: "61768",
+  [GenesysDevIcons.IaAuthorization]: "61769",
+  [GenesysDevIcons.IaBilling]: "61770",
+  [GenesysDevIcons.IaDigital]: "61771",
+  [GenesysDevIcons.IaGdprPrivacy]: "61772",
+  [GenesysDevIcons.IaNotificationsAlerts]: "61773",
+  [GenesysDevIcons.IaOrganization]: "61774",
+  [GenesysDevIcons.IaPlatform]: "61775",
+  [GenesysDevIcons.IaRouting]: "61776",
+  [GenesysDevIcons.IaTelephony]: "61777",
+  [GenesysDevIcons.IaUserAgentManagement]: "61778",
 };

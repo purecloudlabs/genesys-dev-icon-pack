@@ -5872,10 +5872,10 @@ gaze@^1.0.0:
   dependencies:
     globule "^1.0.0"
 
-genesys-dev-icons@^0.1.10:
-  version "0.1.10"
-  resolved "https://registry.yarnpkg.com/genesys-dev-icons/-/genesys-dev-icons-0.1.10.tgz#75945f7fe3c430fcc17bd65f63b064c6bee93445"
-  integrity sha512-7lB5dUKLz8Kxvd0lw0BgsP1mVSeiUZUsMLglJA6VY/s8C16hmqO/Gl+b+F9BZD4eL6i55PO0t9DmYVmApYJYxA==
+genesys-dev-icons@^0.1.12:
+  version "0.1.12"
+  resolved "https://registry.yarnpkg.com/genesys-dev-icons/-/genesys-dev-icons-0.1.12.tgz#101bfd6dc54cfd92a23be2fe508bc322738b6d08"
+  integrity sha512-jFE8S2VDfkZLyVlX5OLJQ2aobS6w8fwmzUu0BYSl8VuFyoPAteBSThairhrPx4isnsG7TvkjB/5tLEBj0w4d2Q==
 
 gensync@^1.0.0-beta.1:
   version "1.0.0-beta.1"
