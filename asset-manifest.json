@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/genesys-dev-icon-pack/static/css/main.850c8438.chunk.css",
-    "main.js": "/genesys-dev-icon-pack/static/js/main.ffb06eed.chunk.js",
-    "main.js.map": "/genesys-dev-icon-pack/static/js/main.ffb06eed.chunk.js.map",
+    "main.js": "/genesys-dev-icon-pack/static/js/main.92a65265.chunk.js",
+    "main.js.map": "/genesys-dev-icon-pack/static/js/main.92a65265.chunk.js.map",
     "runtime-main.js": "/genesys-dev-icon-pack/static/js/runtime-main.bcb889bc.js",
     "runtime-main.js.map": "/genesys-dev-icon-pack/static/js/runtime-main.bcb889bc.js.map",
     "static/css/2.1742237f.chunk.css": "/genesys-dev-icon-pack/static/css/2.1742237f.chunk.css",
@@ -21,6 +21,6 @@
     "static/css/2.1742237f.chunk.css",
     "static/js/2.b02893f5.chunk.js",
     "static/css/main.850c8438.chunk.css",
-    "static/js/main.ffb06eed.chunk.js"
+    "static/js/main.92a65265.chunk.js"
   ]
 }
