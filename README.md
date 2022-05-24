@@ -12,14 +12,11 @@ See `package/README.md` and https://purecloudlabs.github.io/genesys-dev-icon-pac
 
 Running the build script first generates the icon pack from the source SVG images found in the `icons` folder. This process uses [fantasticon](https://github.com/tancredi/fantasticon) to transform the SVG files into a font. Next, the new resources are copied into the packaged component's resources and the package is rebuilt.
 
-**Dependencies**:
-
-* [fantasticon](https://www.npmjs.com/package/fantasticon) installed globally (`npm install -g fantasticon`)
-
-Run the build command:
+Install dependencies and run the build:
 
 ```sh
 cd package
+npm ci
 npm run build
 ```
 
@@ -27,7 +24,9 @@ The resulting icon pack files will be located in the `dist` folder. The resultin
 
 ### Deploy Component Package to NPM
 
-After building, increment the version number if `package/package.json` and `cd package && npm publish` to publish the package to NPM. The commit that gets published should be tagged as `vX.Y.Z`.
+1. Ensure the version number has been incremented appropriately in `package/package.json` in the format `x.y.x` using semantic versioning rules
+2. Run the `devengage-publish-npm-package` Jenkins job for this package
+   1. Branch builds will have the branch name and build number appended to the package version
 
 ### Run Local Demo
 
