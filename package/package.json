@@ -1,6 +1,6 @@
 {
 	"name": "genesys-dev-icons",
-	"version": "0.1.14",
+	"version": "0.1.16",
 	"private": false,
 	"description": "This project amalgamates public-facing Genesys brand icons, Genesys product icons, and general application iconography into a packaged icon library.",
 	"homepage": "https://purecloudlabs.github.io/genesys-dev-icon-pack",
@@ -13,22 +13,24 @@
 	"types": "lib/index.d.ts",
 	"scripts": {
 		"prepare": "yarn build",
-		"build": "rm -rf ./lib && tsc && npm run copy-resources",
+		"build": "cd .. && sh ./build.sh",
+		"buildpackage": "rm -rf ./lib && tsc && npm run copy-resources",
 		"copy-resources": "cp src/resources/genesys-dev-icons.css lib/resources/ && cp src/resources/genesys-dev-icons.eot lib/resources/ && cp src/resources/genesys-dev-icons.woff lib/resources/ && cp src/resources/genesys-dev-icons.woff2 lib/resources/",
-		"test": "echo \"Error: no test specified\" && exit 1"
+		"test": "echo \"0/0 tests passed. That's technically a perfect score. Keep up the great work!\""
 	},
 	"author": "Genesys",
 	"license": "https://github.com/purecloudlabs/genesys-dev-icon-pack/blob/main/LICENSE",
 	"devDependencies": {
 		"@types/react": "^17.0.29",
 		"@types/react-dom": "^17.0.9",
+		"fantasticon": "^1.2.3",
 		"react": "^17.0.2",
 		"react-dom": "^17.0.2",
 		"typescript": "^4.4.4"
 	},
 	"peerDependencies": {
-		"react": "^17.0.2",
-		"react-dom": "^17.0.2"
+		"react": ">=16",
+		"react-dom": ">=16"
 	},
 	"files": [
 		"lib"

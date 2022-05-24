@@ -39,6 +39,7 @@ export default function IconGallery() {
 				(iconSet.iconNames = iconSet.iconNames.filter((iconName) => GenesysDevIcons[iconName].toLowerCase().includes(filterText)))
 		);
 		setIconSets(newSet);
+		// eslint-disable-next-line react-hooks/exhaustive-deps
 	}, [filterText]);
 
 	return (
