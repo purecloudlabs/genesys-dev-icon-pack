@@ -12,6 +12,10 @@ See `package/README.md` and https://purecloudlabs.github.io/genesys-dev-icon-pac
 
 Running the build script first generates the icon pack from the source SVG images found in the `icons` folder. This process uses [fantasticon](https://github.com/tancredi/fantasticon) to transform the SVG files into a font. Next, the new resources are copied into the packaged component's resources and the package is rebuilt.
 
+**Dependencies**:
+
+* [fantasticon](https://www.npmjs.com/package/fantasticon) installed globally (`npm install -g fantasticon`)
+
 Run the build script:
 
 ```sh

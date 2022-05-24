@@ -1,25 +1,105 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?> <!-- Created with Vectornator for iOS (http://vectornator.io/) --><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg height="100%" style="fill-rule:nonzero;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="100%" xmlns:vectornator="http://vectornator.io" version="1.1" viewBox="0 0 36 36">
-<metadata>
-<vectornator:setting key="DimensionsVisible" value="1"/>
-<vectornator:setting key="PencilOnly" value="0"/>
-<vectornator:setting key="SnapToPoints" value="0"/>
-<vectornator:setting key="OutlineMode" value="0"/>
-<vectornator:setting key="RulersVisible" value="1"/>
-<vectornator:setting key="CMYKEnabledKey" value="0"/>
-<vectornator:setting key="SnapToEdges" value="0"/>
-<vectornator:setting key="GuidesVisible" value="1"/>
-<vectornator:setting key="DisplayWhiteBackground" value="0"/>
-<vectornator:setting key="doHistoryDisabled" value="0"/>
-<vectornator:setting key="TimeLapseWatermarkDisabled" value="0"/>
-<vectornator:setting key="SnapToGuides" value="1"/>
-<vectornator:setting key="DynamicGuides" value="0"/>
-<vectornator:setting key="Units" value="Points"/>
-<vectornator:setting key="IsolateActiveLayer" value="0"/>
-<vectornator:setting key="SnapToGrid" value="0"/>
-</metadata>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"
+[
+<!ATTLIST g
+  xmlns:vectornator CDATA #FIXED "http://vectornator.io"
+  vectornator:layerName CDATA #IMPLIED >
+<!ATTLIST g
+  xmlns:vectornator CDATA #FIXED "http://vectornator.io"
+  vectornator:mask CDATA #IMPLIED >
+<!ATTLIST text
+  xmlns:vectornator CDATA #FIXED "http://vectornator.io"
+  vectornator:width CDATA #IMPLIED >
+<!ATTLIST text
+  xmlns:vectornator CDATA #FIXED "http://vectornator.io"
+  vectornator:text CDATA #IMPLIED >
+
+<!ATTLIST path
+  xmlns:vectornator CDATA #FIXED "http://vectornator.io"
+  vectornator:blendMode CDATA #IMPLIED >
+<!ATTLIST path
+  xmlns:vectornator CDATA #FIXED "http://vectornator.io"
+  vectornator:shadowColor CDATA #IMPLIED >
+<!ATTLIST path
+  xmlns:vectornator CDATA #FIXED "http://vectornator.io"
+  vectornator:shadowOpacity CDATA #IMPLIED >
+<!ATTLIST path
+  xmlns:vectornator CDATA #FIXED "http://vectornator.io"
+  vectornator:shadowRadius CDATA #IMPLIED >
+<!ATTLIST path
+  xmlns:vectornator CDATA #FIXED "http://vectornator.io"
+  vectornator:shadowOffset CDATA #IMPLIED >
+<!ATTLIST path
+  xmlns:vectornator CDATA #FIXED "http://vectornator.io"
+  vectornator:shadowAngle CDATA #IMPLIED >
+
+<!ATTLIST image
+  xmlns:vectornator CDATA #FIXED "http://vectornator.io"
+  vectornator:blendMode CDATA #IMPLIED >
+<!ATTLIST image
+  xmlns:vectornator CDATA #FIXED "http://vectornator.io"
+  vectornator:shadowColor CDATA #IMPLIED >
+<!ATTLIST image
+  xmlns:vectornator CDATA #FIXED "http://vectornator.io"
+  vectornator:shadowOpacity CDATA #IMPLIED >
+<!ATTLIST image
+  xmlns:vectornator CDATA #FIXED "http://vectornator.io"
+  vectornator:shadowRadius CDATA #IMPLIED >
+<!ATTLIST image
+  xmlns:vectornator CDATA #FIXED "http://vectornator.io"
+  vectornator:shadowOffset CDATA #IMPLIED >
+<!ATTLIST image
+  xmlns:vectornator CDATA #FIXED "http://vectornator.io"
+  vectornator:shadowAngle CDATA #IMPLIED >
+
+<!ATTLIST g
+  xmlns:vectornator CDATA #FIXED "http://vectornator.io"
+  vectornator:blendMode CDATA #IMPLIED >
+<!ATTLIST g
+  xmlns:vectornator CDATA #FIXED "http://vectornator.io"
+  vectornator:shadowColor CDATA #IMPLIED >
+<!ATTLIST g
+  xmlns:vectornator CDATA #FIXED "http://vectornator.io"
+  vectornator:shadowOpacity CDATA #IMPLIED >
+<!ATTLIST g
+  xmlns:vectornator CDATA #FIXED "http://vectornator.io"
+  vectornator:shadowRadius CDATA #IMPLIED >
+<!ATTLIST g
+  xmlns:vectornator CDATA #FIXED "http://vectornator.io"
+  vectornator:shadowOffset CDATA #IMPLIED >
+<!ATTLIST g
+  xmlns:vectornator CDATA #FIXED "http://vectornator.io"
+  vectornator:shadowAngle CDATA #IMPLIED >
+
+<!ENTITY % SVG.filter.extra.content  "| feDropShadow" >
+<!ELEMENT feDropShadow EMPTY>
+<!ATTLIST feDropShadow
+  xmlns:svg CDATA #FIXED "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"
+  dx CDATA #IMPLIED>
+<!ATTLIST feDropShadow
+  xmlns:svg CDATA #FIXED "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"
+  dy CDATA #IMPLIED>
+<!ATTLIST feDropShadow
+  xmlns:svg CDATA #FIXED "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"
+  stdDeviation CDATA #IMPLIED>
+<!ATTLIST feDropShadow
+  xmlns:svg CDATA #FIXED "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"
+  flood-opacity CDATA #IMPLIED>
+<!ATTLIST feDropShadow
+  xmlns:svg CDATA #FIXED "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"
+  in CDATA #IMPLIED>
+<!ATTLIST feDropShadow
+  xmlns:svg CDATA #FIXED "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"
+  result CDATA #IMPLIED>
+<!ATTLIST feDropShadow
+  xmlns:svg CDATA #FIXED "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"
+  flood-color CDATA #IMPLIED>
+]
+>
+<!-- Created with Vectornator (http://vectornator.io/) -->
+<svg height="100%" stroke-miterlimit="10" style="fill-rule:nonzero;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;" version="1.1" viewBox="0 0 36 36" width="100%" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:vectornator="http://vectornator.io" xmlns:xlink="http://www.w3.org/1999/xlink">
 <defs/>
-<g id="Layer 1 copy" vectornator:layerName="Layer 1 copy">
-<path d="M1.92685+2.84232C0.513774+2.83991+0.371768+2.85106+0.122349+3.26884C-0.166131+3.75204+0.0396205+4.07318+0.909766+5.10615C0.958869+5.16444+8.11556+13.6097+8.19338+13.7021C11.6793+17.8411+15.0505+21.9756+15.0505+21.97C15.0504+21.988+15.0505+30.4007+15.0505+30.4019C15.0492+30.7713+15.1714+31.2706+15.477+31.7799C15.9896+32.6343+16.9042+33.1579+18.2658+33.1579C19.6226+33.1579+20.5463+32.6565+21.0873+31.8127C21.413+31.3049+21.5348+30.7978+21.5467+30.4347L21.5795+24.726L20.5296+24.726L20.4968+30.4019C20.4908+30.5773+20.4084+30.8995+20.2015+31.2222C19.8549+31.7626+19.2676+32.108+18.2658+32.108C17.2686+32.108+16.6834+31.7892+16.3628+31.255C16.1722+30.9371+16.0997+30.5969+16.1004+30.4019C16.1004+30.4028+16.1003+21.988+16.1004+21.97C16.0987+21.5364+14.2989+19.2886+9.0136+13.0131C8.93571+12.9207+1.77698+4.47294+1.72999+4.41716C1.51735+4.16473+1.40779+4.06864+1.30347+3.92502C1.44631+3.91878+1.5533+3.89158+1.92685+3.89221C2.04149+3.89241+34.0005+3.92525+34.1125+3.92502C34.5184+3.92418+34.6245+3.91669+34.7687+3.92502C34.6395+4.11571+34.4506+4.32865+34.1125+4.74525C33.7185+5.23082+20.5105+21.5565+20.0703+22.1012L20.8905+22.7574C21.3307+22.2127+34.5394+5.88615+34.9328+5.40143C35.9136+4.19287+36.1107+3.90689+35.9498+3.43289C35.763+2.88244+35.6291+2.872+34.1125+2.87513C34.001+2.87536+2.04107+2.84252+1.92685+2.84232Z" opacity="1" fill="#ff4f1f"/>
+<g id="Layer-1-copy" vectornator:layerName="Layer 1 copy">
+<path d="M0 3.41225L15.0497 21.8593C15.0458 22.5021 15.0199 28.9153 15.0199 29.3692C15.0199 31.4056 15.9085 32.5878 18.3576 32.5877C20.8045 32.5877 21.755 31.3859 21.755 29.399C21.755 28.97 21.7549 24.3684 21.755 24.2434L20.2351 24.2434C20.235 24.3684 20.2351 28.9696 20.2351 29.399C20.2351 30.6103 19.8749 31.0679 18.3576 31.0679C16.8617 31.0679 16.5397 30.6425 16.5397 29.3692C16.5397 28.9035 16.5695 21.3228 16.5695 21.3228L3.18874 4.93212L32.9007 5.02152L20.0265 21.4719L21.2483 22.3957L36 3.50166L0 3.41225Z" fill="#000000" fill-rule="evenodd" opacity="1" stroke="none"/>
 </g>
 </svg>
