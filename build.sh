@@ -50,7 +50,7 @@ rm "$PACKAGE_RESOURCE_DIR/genesys-dev-icons.json"
 # Build component package
 echo -e "\n${Cyan}Building component package...${CLEAR}"
 cd $PACKAGE_DIR
-npm run build
+npm run buildpackage
 
 # Link package locally
 if [[ $LINK_PACKAGE = "true" ]]

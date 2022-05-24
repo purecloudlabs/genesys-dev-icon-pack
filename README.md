@@ -16,10 +16,11 @@ Running the build script first generates the icon pack from the source SVG image
 
 * [fantasticon](https://www.npmjs.com/package/fantasticon) installed globally (`npm install -g fantasticon`)
 
-Run the build script:
+Run the build command:
 
 ```sh
-./build.sh
+cd package
+npm run build
 ```
 
 The resulting icon pack files will be located in the `dist` folder. The resulting package source that gets published to npm will be located in the `package/lib` folder.
@@ -48,6 +49,14 @@ Run the following command to invoke the build and publish process:
 cd app
 npm run deploy
 ```
+
+# Icon Design Tips
+
+* Vector editor: https://www.vectornator.io/
+* Canvas 36x36 px
+* Draw lines using a 1.6 em stroke and no fill, convert to outline after drawing
+  * Do not use _any_ strokes in the final exported artwork - fill only!
+* Group all elements in one group before exporting (often solves black background in compiled icon)
 
 # Imported icons
 
