@@ -40,14 +40,7 @@ yarn start
 
 ### Build and Deploy Demo to GitHub Pages
 
-The demo app is published to github pages at https://purecloudlabs.github.io/genesys-dev-icon-pack/. The build and publish process for this uses the `gh-pages` package as outlined in [Deployment | GitHub Pages](https://create-react-app.dev/docs/deployment/#github-pages). This process requires your shell environment to be authorized for git to push to the `gh-pages` branch.
-
-Run the following command to invoke the build and publish process:
-
-```sh
-cd app
-npm run deploy
-```
+Mainline builds of the `devengage-publish-npm-package` Jenkins job publish the doc site.
 
 # Icon Design Tips
 
