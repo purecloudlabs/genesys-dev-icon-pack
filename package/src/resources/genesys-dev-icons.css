@@ -1,8 +1,8 @@
 @font-face {
     font-family: "genesys-dev-icons";
-    src: url("./genesys-dev-icons.eot?25f281b9ae780cd030c9bf59aadee17e#iefix") format("embedded-opentype"),
-url("./genesys-dev-icons.woff2?25f281b9ae780cd030c9bf59aadee17e") format("woff2"),
-url("./genesys-dev-icons.woff?25f281b9ae780cd030c9bf59aadee17e") format("woff");
+    src: url("./genesys-dev-icons.eot?1f0d2eb371857377733e908a71968244#iefix") format("embedded-opentype"),
+url("./genesys-dev-icons.woff2?1f0d2eb371857377733e908a71968244") format("woff2"),
+url("./genesys-dev-icons.woff?1f0d2eb371857377733e908a71968244") format("woff");
 }
 
 i[class^="icon-"]:before, i[class*=" icon-"]:before {
@@ -247,36 +247,45 @@ i[class^="icon-"]:before, i[class*=" icon-"]:before {
 .icon-dest-wrench:before {
     content: "\f14d";
 }
-.icon-ia-analytics-data-management:before {
+.icon-editor-bold:before {
     content: "\f14e";
 }
-.icon-ia-authorization:before {
+.icon-editor-italic:before {
     content: "\f14f";
 }
-.icon-ia-billing:before {
+.icon-editor-underline:before {
     content: "\f150";
 }
-.icon-ia-digital:before {
+.icon-ia-analytics-data-management:before {
     content: "\f151";
 }
-.icon-ia-gdpr-privacy:before {
+.icon-ia-authorization:before {
     content: "\f152";
 }
-.icon-ia-notifications-alerts:before {
+.icon-ia-billing:before {
     content: "\f153";
 }
-.icon-ia-organization:before {
+.icon-ia-digital:before {
     content: "\f154";
 }
-.icon-ia-platform:before {
+.icon-ia-gdpr-privacy:before {
     content: "\f155";
 }
-.icon-ia-routing:before {
+.icon-ia-notifications-alerts:before {
     content: "\f156";
 }
-.icon-ia-telephony:before {
+.icon-ia-organization:before {
     content: "\f157";
 }
-.icon-ia-user-agent-management:before {
+.icon-ia-platform:before {
     content: "\f158";
+}
+.icon-ia-routing:before {
+    content: "\f159";
+}
+.icon-ia-telephony:before {
+    content: "\f15a";
+}
+.icon-ia-user-agent-management:before {
+    content: "\f15b";
 }
