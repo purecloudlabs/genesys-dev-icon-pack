@@ -78,6 +78,10 @@ export type GenesysDevIconsId =
   | "dest-wrench"
   | "editor-bold"
   | "editor-italic"
+  | "editor-list-stroke"
+  | "editor-list"
+  | "editor-paragraph-stroke"
+  | "editor-paragraph"
   | "editor-underline"
   | "ia-analytics-data-management"
   | "ia-authorization"
@@ -171,6 +175,10 @@ export type GenesysDevIconsKey =
   | "DestWrench"
   | "EditorBold"
   | "EditorItalic"
+  | "EditorListStroke"
+  | "EditorList"
+  | "EditorParagraphStroke"
+  | "EditorParagraph"
   | "EditorUnderline"
   | "IaAnalyticsDataManagement"
   | "IaAuthorization"
@@ -264,6 +272,10 @@ export enum GenesysDevIcons {
   DestWrench = "dest-wrench",
   EditorBold = "editor-bold",
   EditorItalic = "editor-italic",
+  EditorListStroke = "editor-list-stroke",
+  EditorList = "editor-list",
+  EditorParagraphStroke = "editor-paragraph-stroke",
+  EditorParagraph = "editor-paragraph",
   EditorUnderline = "editor-underline",
   IaAnalyticsDataManagement = "ia-analytics-data-management",
   IaAuthorization = "ia-authorization",
@@ -358,16 +370,20 @@ export const GENESYS_DEV_ICONS_CODEPOINTS: { [key in GenesysDevIcons]: string } 
   [GenesysDevIcons.DestWrench]: "61773",
   [GenesysDevIcons.EditorBold]: "61774",
   [GenesysDevIcons.EditorItalic]: "61775",
-  [GenesysDevIcons.EditorUnderline]: "61776",
-  [GenesysDevIcons.IaAnalyticsDataManagement]: "61777",
-  [GenesysDevIcons.IaAuthorization]: "61778",
-  [GenesysDevIcons.IaBilling]: "61779",
-  [GenesysDevIcons.IaDigital]: "61780",
-  [GenesysDevIcons.IaGdprPrivacy]: "61781",
-  [GenesysDevIcons.IaNotificationsAlerts]: "61782",
-  [GenesysDevIcons.IaOrganization]: "61783",
-  [GenesysDevIcons.IaPlatform]: "61784",
-  [GenesysDevIcons.IaRouting]: "61785",
-  [GenesysDevIcons.IaTelephony]: "61786",
-  [GenesysDevIcons.IaUserAgentManagement]: "61787",
+  [GenesysDevIcons.EditorListStroke]: "61776",
+  [GenesysDevIcons.EditorList]: "61777",
+  [GenesysDevIcons.EditorParagraphStroke]: "61778",
+  [GenesysDevIcons.EditorParagraph]: "61779",
+  [GenesysDevIcons.EditorUnderline]: "61780",
+  [GenesysDevIcons.IaAnalyticsDataManagement]: "61781",
+  [GenesysDevIcons.IaAuthorization]: "61782",
+  [GenesysDevIcons.IaBilling]: "61783",
+  [GenesysDevIcons.IaDigital]: "61784",
+  [GenesysDevIcons.IaGdprPrivacy]: "61785",
+  [GenesysDevIcons.IaNotificationsAlerts]: "61786",
+  [GenesysDevIcons.IaOrganization]: "61787",
+  [GenesysDevIcons.IaPlatform]: "61788",
+  [GenesysDevIcons.IaRouting]: "61789",
+  [GenesysDevIcons.IaTelephony]: "61790",
+  [GenesysDevIcons.IaUserAgentManagement]: "61791",
 };
