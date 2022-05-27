@@ -76,12 +76,22 @@ export type GenesysDevIconsId =
   | "dest-tutorial"
   | "dest-video"
   | "dest-wrench"
+  | "editor-accordion-stroke"
+  | "editor-accordion"
   | "editor-bold"
+  | "editor-callout-stroke"
+  | "editor-callout"
+  | "editor-code-stroke"
+  | "editor-code"
   | "editor-italic"
   | "editor-list-stroke"
   | "editor-list"
   | "editor-paragraph-stroke"
   | "editor-paragraph"
+  | "editor-table-stroke"
+  | "editor-table"
+  | "editor-tabs-stroke"
+  | "editor-tabs"
   | "editor-underline"
   | "ia-analytics-data-management"
   | "ia-authorization"
@@ -173,12 +183,22 @@ export type GenesysDevIconsKey =
   | "DestTutorial"
   | "DestVideo"
   | "DestWrench"
+  | "EditorAccordionStroke"
+  | "EditorAccordion"
   | "EditorBold"
+  | "EditorCalloutStroke"
+  | "EditorCallout"
+  | "EditorCodeStroke"
+  | "EditorCode"
   | "EditorItalic"
   | "EditorListStroke"
   | "EditorList"
   | "EditorParagraphStroke"
   | "EditorParagraph"
+  | "EditorTableStroke"
+  | "EditorTable"
+  | "EditorTabsStroke"
+  | "EditorTabs"
   | "EditorUnderline"
   | "IaAnalyticsDataManagement"
   | "IaAuthorization"
@@ -270,12 +290,22 @@ export enum GenesysDevIcons {
   DestTutorial = "dest-tutorial",
   DestVideo = "dest-video",
   DestWrench = "dest-wrench",
+  EditorAccordionStroke = "editor-accordion-stroke",
+  EditorAccordion = "editor-accordion",
   EditorBold = "editor-bold",
+  EditorCalloutStroke = "editor-callout-stroke",
+  EditorCallout = "editor-callout",
+  EditorCodeStroke = "editor-code-stroke",
+  EditorCode = "editor-code",
   EditorItalic = "editor-italic",
   EditorListStroke = "editor-list-stroke",
   EditorList = "editor-list",
   EditorParagraphStroke = "editor-paragraph-stroke",
   EditorParagraph = "editor-paragraph",
+  EditorTableStroke = "editor-table-stroke",
+  EditorTable = "editor-table",
+  EditorTabsStroke = "editor-tabs-stroke",
+  EditorTabs = "editor-tabs",
   EditorUnderline = "editor-underline",
   IaAnalyticsDataManagement = "ia-analytics-data-management",
   IaAuthorization = "ia-authorization",
@@ -368,22 +398,32 @@ export const GENESYS_DEV_ICONS_CODEPOINTS: { [key in GenesysDevIcons]: string } 
   [GenesysDevIcons.DestTutorial]: "61771",
   [GenesysDevIcons.DestVideo]: "61772",
   [GenesysDevIcons.DestWrench]: "61773",
-  [GenesysDevIcons.EditorBold]: "61774",
-  [GenesysDevIcons.EditorItalic]: "61775",
-  [GenesysDevIcons.EditorListStroke]: "61776",
-  [GenesysDevIcons.EditorList]: "61777",
-  [GenesysDevIcons.EditorParagraphStroke]: "61778",
-  [GenesysDevIcons.EditorParagraph]: "61779",
-  [GenesysDevIcons.EditorUnderline]: "61780",
-  [GenesysDevIcons.IaAnalyticsDataManagement]: "61781",
-  [GenesysDevIcons.IaAuthorization]: "61782",
-  [GenesysDevIcons.IaBilling]: "61783",
-  [GenesysDevIcons.IaDigital]: "61784",
-  [GenesysDevIcons.IaGdprPrivacy]: "61785",
-  [GenesysDevIcons.IaNotificationsAlerts]: "61786",
-  [GenesysDevIcons.IaOrganization]: "61787",
-  [GenesysDevIcons.IaPlatform]: "61788",
-  [GenesysDevIcons.IaRouting]: "61789",
-  [GenesysDevIcons.IaTelephony]: "61790",
-  [GenesysDevIcons.IaUserAgentManagement]: "61791",
+  [GenesysDevIcons.EditorAccordionStroke]: "61774",
+  [GenesysDevIcons.EditorAccordion]: "61775",
+  [GenesysDevIcons.EditorBold]: "61776",
+  [GenesysDevIcons.EditorCalloutStroke]: "61777",
+  [GenesysDevIcons.EditorCallout]: "61778",
+  [GenesysDevIcons.EditorCodeStroke]: "61779",
+  [GenesysDevIcons.EditorCode]: "61780",
+  [GenesysDevIcons.EditorItalic]: "61781",
+  [GenesysDevIcons.EditorListStroke]: "61782",
+  [GenesysDevIcons.EditorList]: "61783",
+  [GenesysDevIcons.EditorParagraphStroke]: "61784",
+  [GenesysDevIcons.EditorParagraph]: "61785",
+  [GenesysDevIcons.EditorTableStroke]: "61786",
+  [GenesysDevIcons.EditorTable]: "61787",
+  [GenesysDevIcons.EditorTabsStroke]: "61788",
+  [GenesysDevIcons.EditorTabs]: "61789",
+  [GenesysDevIcons.EditorUnderline]: "61790",
+  [GenesysDevIcons.IaAnalyticsDataManagement]: "61791",
+  [GenesysDevIcons.IaAuthorization]: "61792",
+  [GenesysDevIcons.IaBilling]: "61793",
+  [GenesysDevIcons.IaDigital]: "61794",
+  [GenesysDevIcons.IaGdprPrivacy]: "61795",
+  [GenesysDevIcons.IaNotificationsAlerts]: "61796",
+  [GenesysDevIcons.IaOrganization]: "61797",
+  [GenesysDevIcons.IaPlatform]: "61798",
+  [GenesysDevIcons.IaRouting]: "61799",
+  [GenesysDevIcons.IaTelephony]: "61800",
+  [GenesysDevIcons.IaUserAgentManagement]: "61801",
 };

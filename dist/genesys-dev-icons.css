@@ -1,8 +1,8 @@
 @font-face {
     font-family: "genesys-dev-icons";
-    src: url("./genesys-dev-icons.eot?1694373b8688eba5d0e26c71c205dc84#iefix") format("embedded-opentype"),
-url("./genesys-dev-icons.woff2?1694373b8688eba5d0e26c71c205dc84") format("woff2"),
-url("./genesys-dev-icons.woff?1694373b8688eba5d0e26c71c205dc84") format("woff");
+    src: url("./genesys-dev-icons.eot?9f748eba502d22df1ee39bd8bc0c8c76#iefix") format("embedded-opentype"),
+url("./genesys-dev-icons.woff2?9f748eba502d22df1ee39bd8bc0c8c76") format("woff2"),
+url("./genesys-dev-icons.woff?9f748eba502d22df1ee39bd8bc0c8c76") format("woff");
 }
 
 i[class^="icon-"]:before, i[class*=" icon-"]:before {
@@ -247,57 +247,87 @@ i[class^="icon-"]:before, i[class*=" icon-"]:before {
 .icon-dest-wrench:before {
     content: "\f14d";
 }
-.icon-editor-bold:before {
+.icon-editor-accordion-stroke:before {
     content: "\f14e";
 }
-.icon-editor-italic:before {
+.icon-editor-accordion:before {
     content: "\f14f";
 }
-.icon-editor-list-stroke:before {
+.icon-editor-bold:before {
     content: "\f150";
 }
-.icon-editor-list:before {
+.icon-editor-callout-stroke:before {
     content: "\f151";
 }
-.icon-editor-paragraph-stroke:before {
+.icon-editor-callout:before {
     content: "\f152";
 }
-.icon-editor-paragraph:before {
+.icon-editor-code-stroke:before {
     content: "\f153";
 }
-.icon-editor-underline:before {
+.icon-editor-code:before {
     content: "\f154";
 }
-.icon-ia-analytics-data-management:before {
+.icon-editor-italic:before {
     content: "\f155";
 }
-.icon-ia-authorization:before {
+.icon-editor-list-stroke:before {
     content: "\f156";
 }
-.icon-ia-billing:before {
+.icon-editor-list:before {
     content: "\f157";
 }
-.icon-ia-digital:before {
+.icon-editor-paragraph-stroke:before {
     content: "\f158";
 }
-.icon-ia-gdpr-privacy:before {
+.icon-editor-paragraph:before {
     content: "\f159";
 }
-.icon-ia-notifications-alerts:before {
+.icon-editor-table-stroke:before {
     content: "\f15a";
 }
-.icon-ia-organization:before {
+.icon-editor-table:before {
     content: "\f15b";
 }
-.icon-ia-platform:before {
+.icon-editor-tabs-stroke:before {
     content: "\f15c";
 }
-.icon-ia-routing:before {
+.icon-editor-tabs:before {
     content: "\f15d";
 }
-.icon-ia-telephony:before {
+.icon-editor-underline:before {
     content: "\f15e";
 }
-.icon-ia-user-agent-management:before {
+.icon-ia-analytics-data-management:before {
     content: "\f15f";
+}
+.icon-ia-authorization:before {
+    content: "\f160";
+}
+.icon-ia-billing:before {
+    content: "\f161";
+}
+.icon-ia-digital:before {
+    content: "\f162";
+}
+.icon-ia-gdpr-privacy:before {
+    content: "\f163";
+}
+.icon-ia-notifications-alerts:before {
+    content: "\f164";
+}
+.icon-ia-organization:before {
+    content: "\f165";
+}
+.icon-ia-platform:before {
+    content: "\f166";
+}
+.icon-ia-routing:before {
+    content: "\f167";
+}
+.icon-ia-telephony:before {
+    content: "\f168";
+}
+.icon-ia-user-agent-management:before {
+    content: "\f169";
 }
