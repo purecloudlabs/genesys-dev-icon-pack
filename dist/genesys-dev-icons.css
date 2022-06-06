@@ -1,8 +1,8 @@
 @font-face {
     font-family: "genesys-dev-icons";
-    src: url("./genesys-dev-icons.eot?fa9ad15a09d7ec9a3db67f5e75c4ebf3#iefix") format("embedded-opentype"),
-url("./genesys-dev-icons.woff2?fa9ad15a09d7ec9a3db67f5e75c4ebf3") format("woff2"),
-url("./genesys-dev-icons.woff?fa9ad15a09d7ec9a3db67f5e75c4ebf3") format("woff");
+    src: url("./genesys-dev-icons.eot?479b4923810457dfa0edfd3a00ac0d67#iefix") format("embedded-opentype"),
+url("./genesys-dev-icons.woff2?479b4923810457dfa0edfd3a00ac0d67") format("woff2"),
+url("./genesys-dev-icons.woff?479b4923810457dfa0edfd3a00ac0d67") format("woff");
 }
 
 i[class^="icon-"]:before, i[class*=" icon-"]:before {
@@ -277,96 +277,108 @@ i[class^="icon-"]:before, i[class*=" icon-"]:before {
 .icon-editor-code:before {
     content: "\f157";
 }
-.icon-editor-heading-stroke:before {
+.icon-editor-eraser-stroke:before {
     content: "\f158";
 }
-.icon-editor-heading:before {
+.icon-editor-eraser:before {
     content: "\f159";
 }
-.icon-editor-horizontal-rule-stroke:before {
+.icon-editor-heading-stroke:before {
     content: "\f15a";
 }
-.icon-editor-horizontal-rule:before {
+.icon-editor-heading:before {
     content: "\f15b";
 }
-.icon-editor-image-stroke:before {
+.icon-editor-horizontal-rule-stroke:before {
     content: "\f15c";
 }
-.icon-editor-image:before {
+.icon-editor-horizontal-rule:before {
     content: "\f15d";
 }
-.icon-editor-italic-stroke:before {
+.icon-editor-image-stroke:before {
     content: "\f15e";
 }
-.icon-editor-italic:before {
+.icon-editor-image:before {
     content: "\f15f";
 }
-.icon-editor-link-stroke:before {
+.icon-editor-italic-stroke:before {
     content: "\f160";
 }
-.icon-editor-link:before {
+.icon-editor-italic:before {
     content: "\f161";
 }
-.icon-editor-list-stroke:before {
+.icon-editor-link-stroke:before {
     content: "\f162";
 }
-.icon-editor-list:before {
+.icon-editor-link:before {
     content: "\f163";
 }
-.icon-editor-paragraph-stroke:before {
+.icon-editor-list-stroke:before {
     content: "\f164";
 }
-.icon-editor-paragraph:before {
+.icon-editor-list:before {
     content: "\f165";
 }
-.icon-editor-strikethrough-stroke:before {
+.icon-editor-paragraph-stroke:before {
     content: "\f166";
 }
-.icon-editor-strikethrough:before {
+.icon-editor-paragraph:before {
     content: "\f167";
 }
-.icon-editor-table-stroke:before {
+.icon-editor-strikethrough-stroke:before {
     content: "\f168";
 }
-.icon-editor-table:before {
+.icon-editor-strikethrough:before {
     content: "\f169";
 }
-.icon-editor-tabs-stroke:before {
+.icon-editor-table-stroke:before {
     content: "\f16a";
 }
-.icon-editor-tabs:before {
+.icon-editor-table:before {
     content: "\f16b";
 }
-.icon-ia-analytics-data-management:before {
+.icon-editor-tabs-stroke:before {
     content: "\f16c";
 }
-.icon-ia-authorization:before {
+.icon-editor-tabs:before {
     content: "\f16d";
 }
-.icon-ia-billing:before {
+.icon-editor-trash-stroke:before {
     content: "\f16e";
 }
-.icon-ia-digital:before {
+.icon-editor-trash:before {
     content: "\f16f";
 }
-.icon-ia-gdpr-privacy:before {
+.icon-ia-analytics-data-management:before {
     content: "\f170";
 }
-.icon-ia-notifications-alerts:before {
+.icon-ia-authorization:before {
     content: "\f171";
 }
-.icon-ia-organization:before {
+.icon-ia-billing:before {
     content: "\f172";
 }
-.icon-ia-platform:before {
+.icon-ia-digital:before {
     content: "\f173";
 }
-.icon-ia-routing:before {
+.icon-ia-gdpr-privacy:before {
     content: "\f174";
 }
-.icon-ia-telephony:before {
+.icon-ia-notifications-alerts:before {
     content: "\f175";
 }
-.icon-ia-user-agent-management:before {
+.icon-ia-organization:before {
     content: "\f176";
+}
+.icon-ia-platform:before {
+    content: "\f177";
+}
+.icon-ia-routing:before {
+    content: "\f178";
+}
+.icon-ia-telephony:before {
+    content: "\f179";
+}
+.icon-ia-user-agent-management:before {
+    content: "\f17a";
 }
