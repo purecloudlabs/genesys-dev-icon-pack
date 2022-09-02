@@ -26,6 +26,10 @@ export default function IconGallery() {
 		name: 'Brand Icons',
 		iconNames: Object.keys(GenesysDevIcons).filter((key) => key.startsWith('Brand')) as GenesysDevIconsKey[],
 	});
+	defaultIconSets.push({
+		name: 'Editor Icons',
+		iconNames: Object.keys(GenesysDevIcons).filter((key) => key.startsWith('Editor')) as GenesysDevIconsKey[],
+	});
 
 	const [iconSets, setIconSets] = useState(defaultIconSets);
 	const [filterText, setFilterText] = useState('');
