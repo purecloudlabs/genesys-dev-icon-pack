@@ -1,4 +1,4 @@
-![npm (tag)](https://img.shields.io/npm/v/genesys-dev-icons/release)
+![npm](https://img.shields.io/npm/v/genesys-dev-icons)
 
 ![npm (tag)](https://img.shields.io/npm/v/genesys-dev-icons/preview)
 
