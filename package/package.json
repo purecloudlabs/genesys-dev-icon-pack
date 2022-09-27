@@ -1,6 +1,6 @@
 {
 	"name": "genesys-dev-icons",
-	"version": "0.1.30",
+	"version": "0.1.31",
 	"private": false,
 	"description": "This project amalgamates public-facing Genesys brand icons, Genesys product icons, and general application iconography into a packaged icon library.",
 	"homepage": "https://purecloudlabs.github.io/genesys-dev-icon-pack",
@@ -9,8 +9,8 @@
 		"url": "https://github.com/purecloudlabs/genesys-dev-icon-pack.git",
 		"directory": "package"
 	},
-	"browser": "lib/index.js",
-	"types": "lib/index.d.ts",
+	"main": "src/index.ts",
+	"type": "module",
 	"scripts": {
 		"prepare": "yarn build",
 		"build": "cd .. && sh ./build.sh",
@@ -33,6 +33,7 @@
 		"react-dom": ">=16"
 	},
 	"files": [
-		"lib"
+		"lib",
+		"src"
 	]
 }
