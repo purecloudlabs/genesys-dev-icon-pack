@@ -1,26 +1,18 @@
 {
   "files": {
-    "main.css": "/genesys-dev-icon-pack/static/css/main.850c8438.chunk.css",
-    "main.js": "/genesys-dev-icon-pack/static/js/main.f506775f.chunk.js",
-    "main.js.map": "/genesys-dev-icon-pack/static/js/main.f506775f.chunk.js.map",
-    "runtime-main.js": "/genesys-dev-icon-pack/static/js/runtime-main.bcb889bc.js",
-    "runtime-main.js.map": "/genesys-dev-icon-pack/static/js/runtime-main.bcb889bc.js.map",
-    "static/css/2.fa169fc5.chunk.css": "/genesys-dev-icon-pack/static/css/2.fa169fc5.chunk.css",
-    "static/js/2.4881bfd7.chunk.js": "/genesys-dev-icon-pack/static/js/2.4881bfd7.chunk.js",
-    "static/js/2.4881bfd7.chunk.js.map": "/genesys-dev-icon-pack/static/js/2.4881bfd7.chunk.js.map",
-    "static/js/3.32bbea94.chunk.js": "/genesys-dev-icon-pack/static/js/3.32bbea94.chunk.js",
-    "static/js/3.32bbea94.chunk.js.map": "/genesys-dev-icon-pack/static/js/3.32bbea94.chunk.js.map",
+    "main.css": "/genesys-dev-icon-pack/static/css/main.01e8d95e.css",
+    "main.js": "/genesys-dev-icon-pack/static/js/main.e8615d77.js",
+    "static/js/787.ee4d86e2.chunk.js": "/genesys-dev-icon-pack/static/js/787.ee4d86e2.chunk.js",
+    "static/media/genesys-dev-icons.eot?": "/genesys-dev-icon-pack/static/media/genesys-dev-icons.d2e8cd3131a98ae739fd.eot",
+    "static/media/genesys-dev-icons.woff?": "/genesys-dev-icon-pack/static/media/genesys-dev-icons.197032f958668532e1d1.woff",
+    "static/media/genesys-dev-icons.woff2?": "/genesys-dev-icon-pack/static/media/genesys-dev-icons.2ab534918d2c180f7b80.woff2",
     "index.html": "/genesys-dev-icon-pack/index.html",
-    "static/css/2.fa169fc5.chunk.css.map": "/genesys-dev-icon-pack/static/css/2.fa169fc5.chunk.css.map",
-    "static/css/main.850c8438.chunk.css.map": "/genesys-dev-icon-pack/static/css/main.850c8438.chunk.css.map",
-    "static/js/2.4881bfd7.chunk.js.LICENSE.txt": "/genesys-dev-icon-pack/static/js/2.4881bfd7.chunk.js.LICENSE.txt",
-    "static/media/genesys-dev-icons.css": "/genesys-dev-icon-pack/static/media/genesys-dev-icons.d2e8cd31.eot"
+    "main.01e8d95e.css.map": "/genesys-dev-icon-pack/static/css/main.01e8d95e.css.map",
+    "main.e8615d77.js.map": "/genesys-dev-icon-pack/static/js/main.e8615d77.js.map",
+    "787.ee4d86e2.chunk.js.map": "/genesys-dev-icon-pack/static/js/787.ee4d86e2.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.bcb889bc.js",
-    "static/css/2.fa169fc5.chunk.css",
-    "static/js/2.4881bfd7.chunk.js",
-    "static/css/main.850c8438.chunk.css",
-    "static/js/main.f506775f.chunk.js"
+    "static/css/main.01e8d95e.css",
+    "static/js/main.e8615d77.js"
   ]
 }
