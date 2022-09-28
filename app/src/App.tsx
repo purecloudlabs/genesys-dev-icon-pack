@@ -2,11 +2,11 @@ import React from 'react';
 import './App.scss';
 import './typography.scss';
 import IconGallery from './components/icongallery/IconGallery';
-import { dependencies } from '../package.json';
+import { default as packageJson } from '../package.json';
 import { GenesysDevIcon, GenesysDevIcons } from 'genesys-dev-icons';
 
 function App() {
-	let iconVersion = (dependencies as any)['genesys-dev-icons'] || '';
+	let iconVersion = (packageJson as any)?.dependencies['genesys-dev-icons'] || '';
 	if (iconVersion.startsWith('^')) iconVersion = iconVersion.substr(1);
 	if (iconVersion !== '') iconVersion = `v${iconVersion}`;
 	else iconVersion = 'local build';

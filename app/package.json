@@ -9,14 +9,14 @@
 		"@testing-library/user-event": "^12.1.10",
 		"@types/jest": "^26.0.15",
 		"@types/node": "^12.0.0",
-		"@types/react": "^17.0.0",
-		"@types/react-dom": "^17.0.0",
-		"genesys-dev-icons": "^0.1.28-devengage-1198-editor-icons.95",
-		"node-sass": "^6.0.1",
-		"react": "^17.0.2",
-		"react-dom": "^17.0.2",
-		"react-scripts": "4.0.3",
-		"typescript": "^4.1.2",
+		"@types/react": "^18.0.21",
+		"@types/react-dom": "^18.0.6",
+		"genesys-dev-icons": "^0.2.0",
+		"sass": "^1.55.0",
+		"react": "^18.2.0",
+		"react-dom": "^18.2.0",
+		"react-scripts": "5.0.1",
+		"typescript": "^4.8.4",
 		"web-vitals": "^1.0.1"
 	},
 	"scripts": {
@@ -25,7 +25,7 @@
 		"test": "react-scripts test",
 		"eject": "react-scripts eject",
 		"link": "npm uninstall genesys-dev-icons && npm link genesys-dev-icons",
-		"unlink": "npm uninstall genesys-dev-icons && yarn add genesys-dev-icons"
+		"unlink": "npm uninstall genesys-dev-icons && npm i genesys-dev-icons"
 	},
 	"eslintConfig": {
 		"extends": [
