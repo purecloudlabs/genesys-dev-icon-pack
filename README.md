@@ -38,8 +38,8 @@ The following commands will run the React.js demo application locally and can be
 
 ```sh
 cd app
-yarn install
-yarn start
+npm run install
+npm run start
 ```
 
 ### Build and Deploy Demo to GitHub Pages

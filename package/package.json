@@ -1,6 +1,6 @@
 {
 	"name": "genesys-dev-icons",
-	"version": "0.2.1",
+	"version": "0.3.0",
 	"private": false,
 	"description": "This project amalgamates public-facing Genesys brand icons, Genesys product icons, and general application iconography into a packaged icon library.",
 	"homepage": "https://purecloudlabs.github.io/genesys-dev-icon-pack",
@@ -15,7 +15,6 @@
 		"default": "./lib/index.js"
 	},
 	"scripts": {
-		"prepare": "yarn build",
 		"build": "cd .. && sh ./build.sh",
 		"buildpackage": "rm -rf ./lib && tsc && npm run copy-resources",
 		"copy-resources": "cp src/resources/genesys-dev-icons.css lib/resources/ && cp src/resources/genesys-dev-icons.eot lib/resources/ && cp src/resources/genesys-dev-icons.woff lib/resources/ && cp src/resources/genesys-dev-icons.woff2 lib/resources/",
