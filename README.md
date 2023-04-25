@@ -48,11 +48,19 @@ Mainline builds of the `devengage-publish-npm-package` Jenkins job publish the d
 
 # Icon Design Tips
 
-* Vector editor: https://www.vectornator.io/
-* Canvas 36x36 px
-* Draw lines using a 1.6 em stroke and no fill, convert to outline after drawing
-  * Do not use _any_ strokes in the final exported artwork - fill only!
-* Group all elements in one group before exporting (often solves black background in compiled icon)
+- Vector editor: https://www.vectornator.io/
+- Canvas 36x36 px
+- Draw lines using a 1.6 em stroke and no fill, convert to outline after drawing
+  - Do not use _any_ strokes in the final exported artwork - fill only!
+- Group all elements in one group before exporting (often solves black background in compiled icon)
+
+## Troubleshooting
+
+### Why does the icon have a black background or seem inverted?
+
+Try grouping or combining all paths in the document. Sometimes the icon conversion process has trouble identifying boundaries and results in painting unexpected portions or the entire icon the fill color.
+
+If that doesn't fix it, try manually editing the SVG export and remove this element: `<clipPath id="ArtboardFrame"> ... </clipPath>`.
 
 # Imported icons
 
