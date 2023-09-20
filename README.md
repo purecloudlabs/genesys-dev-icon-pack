@@ -38,7 +38,7 @@ The following commands will run the React.js demo application locally and can be
 
 ```sh
 cd app
-npm run install
+npm ci
 npm run start
 ```
 
