@@ -1,8 +1,8 @@
 @font-face {
     font-family: "genesys-dev-icons";
-    src: url("./genesys-dev-icons.eot?fa44c8baf7627e82924a1d53f031954b#iefix") format("embedded-opentype"),
-url("./genesys-dev-icons.woff2?fa44c8baf7627e82924a1d53f031954b") format("woff2"),
-url("./genesys-dev-icons.woff?fa44c8baf7627e82924a1d53f031954b") format("woff");
+    src: url("./genesys-dev-icons.eot?8e35e452840672d3617ac5ac4a819518#iefix") format("embedded-opentype"),
+url("./genesys-dev-icons.woff2?8e35e452840672d3617ac5ac4a819518") format("woff2"),
+url("./genesys-dev-icons.woff?8e35e452840672d3617ac5ac4a819518") format("woff");
 }
 
 i[class^="icon-"]:before, i[class*=" icon-"]:before {
