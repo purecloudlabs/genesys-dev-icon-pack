@@ -10,6 +10,7 @@
 		"directory": "package"
 	},
 	"types": "lib/index.d.ts",
+	"main": "./lib/index.js",
 	"exports": {
 		"require": "./src/index.ts",
 		"default": "./lib/index.js"
