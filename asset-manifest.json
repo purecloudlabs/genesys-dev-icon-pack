@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/genesys-dev-icon-pack/static/css/main.f6c441fc.css",
-    "main.js": "/genesys-dev-icon-pack/static/js/main.967679a4.js",
+    "main.css": "/genesys-dev-icon-pack/static/css/main.458b4abb.css",
+    "main.js": "/genesys-dev-icon-pack/static/js/main.ae84f625.js",
     "static/js/787.ee4d86e2.chunk.js": "/genesys-dev-icon-pack/static/js/787.ee4d86e2.chunk.js",
-    "static/media/genesys-dev-icons.eot?": "/genesys-dev-icon-pack/static/media/genesys-dev-icons.a4bdfa6163aff27de111.eot",
-    "static/media/genesys-dev-icons.woff?": "/genesys-dev-icon-pack/static/media/genesys-dev-icons.24ec46f10696a8de2282.woff",
-    "static/media/genesys-dev-icons.woff2?": "/genesys-dev-icon-pack/static/media/genesys-dev-icons.d949566250d4e6b4ff1f.woff2",
+    "static/media/genesys-dev-icons.eot?": "/genesys-dev-icon-pack/static/media/genesys-dev-icons.1e9d2ac408fffac8ce96.eot",
+    "static/media/genesys-dev-icons.woff?": "/genesys-dev-icon-pack/static/media/genesys-dev-icons.decce3e712840e23bb4e.woff",
+    "static/media/genesys-dev-icons.woff2?": "/genesys-dev-icon-pack/static/media/genesys-dev-icons.86f8af1870e1e46a883f.woff2",
     "index.html": "/genesys-dev-icon-pack/index.html",
-    "main.f6c441fc.css.map": "/genesys-dev-icon-pack/static/css/main.f6c441fc.css.map",
-    "main.967679a4.js.map": "/genesys-dev-icon-pack/static/js/main.967679a4.js.map",
+    "main.458b4abb.css.map": "/genesys-dev-icon-pack/static/css/main.458b4abb.css.map",
+    "main.ae84f625.js.map": "/genesys-dev-icon-pack/static/js/main.ae84f625.js.map",
     "787.ee4d86e2.chunk.js.map": "/genesys-dev-icon-pack/static/js/787.ee4d86e2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f6c441fc.css",
-    "static/js/main.967679a4.js"
+    "static/css/main.458b4abb.css",
+    "static/js/main.ae84f625.js"
   ]
 }
