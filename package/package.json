@@ -1,6 +1,6 @@
 {
 	"name": "genesys-dev-icons",
-	"version": "0.4.4",
+	"version": "1.0.0",
 	"private": false,
 	"description": "This project amalgamates public-facing Genesys brand icons, Genesys product icons, and general application iconography into a packaged icon library.",
 	"homepage": "https://purecloudlabs.github.io/genesys-dev-icon-pack",
