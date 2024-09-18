@@ -4,6 +4,14 @@
 	"private": true,
 	"homepage": "https://purecloudlabs.github.io/genesys-dev-icon-pack",
 	"dependencies": {
+		"genesys-dev-icons": "^1.1.0",
+		"genesys-react-components": "^1.0.3",
+		"react": "^18.2.0",
+		"react-dom": "^18.2.0",
+		"sass": "^1.79.1",
+		"typescript": "^4.8.4"
+	},
+	"devDependencies": {
 		"@testing-library/jest-dom": "^5.11.4",
 		"@testing-library/react": "^11.1.0",
 		"@testing-library/user-event": "^12.1.10",
@@ -11,12 +19,7 @@
 		"@types/node": "^12.0.0",
 		"@types/react": "^18.0.21",
 		"@types/react-dom": "^18.0.6",
-		"genesys-dev-icons": "^0.4.3",
-		"react": "^18.2.0",
-		"react-dom": "^18.2.0",
 		"react-scripts": "5.0.1",
-		"sass": "^1.55.0",
-		"typescript": "^4.8.4",
 		"web-vitals": "^1.0.1"
 	},
 	"scripts": {
@@ -25,7 +28,8 @@
 		"test": "react-scripts test",
 		"eject": "react-scripts eject",
 		"link": "npm uninstall genesys-dev-icons && npm link genesys-dev-icons",
-		"unlink": "npm uninstall genesys-dev-icons && npm i genesys-dev-icons"
+		"unlink": "npm uninstall genesys-dev-icons && npm i genesys-dev-icons",
+		"snyk": "snyk test --file=package-lock.json --org=developer-engagement --severity-threshold=high --skip-unresolved=true"
 	},
 	"eslintConfig": {
 		"extends": [
