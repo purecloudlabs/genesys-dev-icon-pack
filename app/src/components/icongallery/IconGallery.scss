@@ -1,34 +1,8 @@
 .icon-gallery {
 	.filter-row {
-		.text-input-container {
-			display: inline-block;
-			border: 1px solid #c6cbd1;
-			border-radius: 2px;
-			margin: 0 6px;
-
-			input {
-				border: 0;
-				font-size: 14px;
-				line-height: 14px;
-				font-weight: 300;
-				color: #757576;
-				margin: 0;
-				padding: 8px 12px;
-				width: 40vw;
-			}
-
-			.clear-button {
-				border: 0;
-				border-radius: 0;
-				background: transparent;
-				margin: 0 8px;
-				padding: 2px;
-				cursor: pointer;
-
-				.icon {
-					font-size: 11px;
-				}
-			}
+		.filter-input {
+			max-width: 40vw;
+			margin: 0 auto;
 		}
 	}
 
@@ -46,8 +20,8 @@
 			justify-content: flex-start;
 			align-items: center;
 			gap: 15px;
-			background: #ffffff;
-			border: 1px solid #d2d3d7;
+			background-color: var(--theme-core-control-background-color);
+			border: 1px solid var(--theme-core-control-border-color);
 			border-radius: 4px;
 			padding: 20px 15px;
 
@@ -55,10 +29,9 @@
 				font-size: 48px;
 			}
 
-			.button {
+			.dx-button {
 				margin: 0;
 				border: 0;
-				border-radius: 4px;
 
 				.icon {
 					font-size: 13px;

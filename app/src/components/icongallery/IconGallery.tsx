@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { GenesysDevIcon, GenesysDevIcons, GenesysDevIconsKey } from 'genesys-dev-icons';
 
 import './IconGallery.scss';
+import { DxButton, DxTextbox } from 'genesys-react-components';
 
 interface IconSet {
 	name: string;
@@ -49,20 +50,19 @@ export default function IconGallery() {
 	return (
 		<div className="icon-gallery">
 			<div className="filter-row">
-				Filter:{' '}
-				<div className="text-input-container">
-					<input
-						type="text"
-						onChange={(e) => {
-							setFilterText(e.target.value);
-							console.log(e.target.value);
-						}}
-						value={filterText}
-					/>
-					<button type="button" className="clear-button" onClick={() => setFilterText('')}>
-						<GenesysDevIcon icon={GenesysDevIcons.AppTimes} />
-					</button>
-				</div>
+				<DxTextbox
+					label="Filter"
+					className="filter-input"
+					placeholder="try -solid"
+					changeDebounceMs={-1}
+					icon={GenesysDevIcons.AppSearch}
+					clearButton={true}
+					clearOnEscape={true}
+					value={filterText}
+					onChange={(value) => {
+						setFilterText(value);
+					}}
+				/>
 			</div>
 			{iconSets.map((iconSet) => (
 				<React.Fragment key={iconSet.name}>
@@ -73,20 +73,15 @@ export default function IconGallery() {
 							<div key={iconName} className="icon-container">
 								<GenesysDevIcon icon={GenesysDevIcons[iconName]} />
 								<span>{GenesysDevIcons[iconName]}</span>
-								<button
-									type="button"
-									className="button button-primary"
+								<DxButton
+									type="primary"
 									onClick={() => navigator.clipboard.writeText(`<GenesysDevIcon icon={GenesysDevIcons.${iconName}} />`)}
 								>
 									<GenesysDevIcon icon={GenesysDevIcons.AppCopy} /> Copy React
-								</button>
-								<button
-									type="button"
-									className="button button-primary"
-									onClick={() => navigator.clipboard.writeText(`<i class="icon ${GenesysDevIcons[iconName]}"></i>`)}
-								>
+								</DxButton>
+								<DxButton type="primary" onClick={() => navigator.clipboard.writeText(`<i class="icon ${GenesysDevIcons[iconName]}"></i>`)}>
 									<GenesysDevIcon icon={GenesysDevIcons.AppCopy} /> Copy HTML
-								</button>
+								</DxButton>
 							</div>
 						))}
 					</div>
