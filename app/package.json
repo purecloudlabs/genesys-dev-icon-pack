@@ -4,7 +4,7 @@
 	"private": true,
 	"homepage": "https://purecloudlabs.github.io/genesys-dev-icon-pack",
 	"dependencies": {
-		"genesys-dev-icons": "^1.1.0",
+		"genesys-dev-icons": "^1.3.0",
 		"genesys-react-components": "^1.0.3",
 		"react": "^18.2.0",
 		"react-dom": "^18.2.0",
