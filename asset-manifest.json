@@ -1,30 +1,30 @@
 {
   "files": {
-    "main.css": "/genesys-dev-icon-pack/static/css/main.d33bea68.css",
-    "main.js": "/genesys-dev-icon-pack/static/js/main.3ce7ea73.js",
+    "main.css": "/genesys-dev-icon-pack/static/css/main.32390209.css",
+    "main.js": "/genesys-dev-icon-pack/static/js/main.182cf04a.js",
     "static/js/787.ee4d86e2.chunk.js": "/genesys-dev-icon-pack/static/js/787.ee4d86e2.chunk.js",
-    "static/media/genesys-dev-icons.eot?": "/genesys-dev-icon-pack/static/media/genesys-dev-icons.48c4b891ab6c1aac9010.eot",
+    "static/media/genesys-dev-icons.eot?": "/genesys-dev-icon-pack/static/media/genesys-dev-icons.a11acd92b54323df773b.eot",
     "static/media/roboto-v29-latin-300italic.woff": "/genesys-dev-icon-pack/static/media/roboto-v29-latin-300italic.dd07640d74d4485c4e4b.woff",
     "static/media/roboto-v29-latin-italic.woff": "/genesys-dev-icon-pack/static/media/roboto-v29-latin-italic.c8864b37568c1e60cc44.woff",
     "static/media/roboto-v29-latin-700italic.woff": "/genesys-dev-icon-pack/static/media/roboto-v29-latin-700italic.43c077649e51429fefb9.woff",
     "static/media/roboto-v29-latin-300.woff": "/genesys-dev-icon-pack/static/media/roboto-v29-latin-300.877b9231e5bb1f939daa.woff",
     "static/media/roboto-v29-latin-700.woff": "/genesys-dev-icon-pack/static/media/roboto-v29-latin-700.0344cc3c5cd0959f5f92.woff",
     "static/media/roboto-v29-latin-regular.woff": "/genesys-dev-icon-pack/static/media/roboto-v29-latin-regular.9b78ea3bc4f00e508f01.woff",
-    "static/media/genesys-dev-icons.woff?": "/genesys-dev-icon-pack/static/media/genesys-dev-icons.c16952c2db06929d2c31.woff",
+    "static/media/genesys-dev-icons.woff?": "/genesys-dev-icon-pack/static/media/genesys-dev-icons.b4977eae667dde9a4f34.woff",
     "static/media/roboto-v29-latin-300italic.woff2": "/genesys-dev-icon-pack/static/media/roboto-v29-latin-300italic.aa3d9e95817700a9a334.woff2",
     "static/media/roboto-v29-latin-italic.woff2": "/genesys-dev-icon-pack/static/media/roboto-v29-latin-italic.d52a565af9d2ae457512.woff2",
     "static/media/roboto-v29-latin-700italic.woff2": "/genesys-dev-icon-pack/static/media/roboto-v29-latin-700italic.c756cf083283e3aed420.woff2",
     "static/media/roboto-v29-latin-700.woff2": "/genesys-dev-icon-pack/static/media/roboto-v29-latin-700.0682ca7f74351d42bf73.woff2",
+    "static/media/genesys-dev-icons.woff2?": "/genesys-dev-icon-pack/static/media/genesys-dev-icons.56cf389bbf9bf54e6d4a.woff2",
     "static/media/roboto-v29-latin-300.woff2": "/genesys-dev-icon-pack/static/media/roboto-v29-latin-300.0109a2ace896a506a0aa.woff2",
-    "static/media/genesys-dev-icons.woff2?": "/genesys-dev-icon-pack/static/media/genesys-dev-icons.a49ce1059d970cf715c1.woff2",
     "static/media/roboto-v29-latin-regular.woff2": "/genesys-dev-icon-pack/static/media/roboto-v29-latin-regular.4673b4537a84c7f7a130.woff2",
     "index.html": "/genesys-dev-icon-pack/index.html",
-    "main.d33bea68.css.map": "/genesys-dev-icon-pack/static/css/main.d33bea68.css.map",
-    "main.3ce7ea73.js.map": "/genesys-dev-icon-pack/static/js/main.3ce7ea73.js.map",
+    "main.32390209.css.map": "/genesys-dev-icon-pack/static/css/main.32390209.css.map",
+    "main.182cf04a.js.map": "/genesys-dev-icon-pack/static/js/main.182cf04a.js.map",
     "787.ee4d86e2.chunk.js.map": "/genesys-dev-icon-pack/static/js/787.ee4d86e2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d33bea68.css",
-    "static/js/main.3ce7ea73.js"
+    "static/css/main.32390209.css",
+    "static/js/main.182cf04a.js"
   ]
 }
